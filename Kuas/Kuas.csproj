@@ -48,17 +48,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="landing_page.cs">
+    <Compile Include="CompletedPlay.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="landing_page.Designer.cs">
-      <DependentUpon>landing_page.cs</DependentUpon>
+    <Compile Include="CompletedPlay.Designer.cs">
+      <DependentUpon>CompletedPlay.cs</DependentUpon>
     </Compile>
-    <Compile Include="non_completed_play.cs">
+    <Compile Include="LandingPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="non_completed_play.Designer.cs">
-      <DependentUpon>non_completed_play.cs</DependentUpon>
+    <Compile Include="LandingPage.Designer.cs">
+      <DependentUpon>LandingPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NonCompletePlay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NonCompletePlay.Designer.cs">
+      <DependentUpon>NonCompletePlay.cs</DependentUpon>
     </Compile>
     <Compile Include="player_info.cs">
       <SubType>Form</SubType>
@@ -68,11 +74,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="landing_page.resx">
-      <DependentUpon>landing_page.cs</DependentUpon>
+    <EmbeddedResource Include="CompletedPlay.resx">
+      <DependentUpon>CompletedPlay.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="non_completed_play.resx">
-      <DependentUpon>non_completed_play.cs</DependentUpon>
+    <EmbeddedResource Include="LandingPage.resx">
+      <DependentUpon>LandingPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NonCompletePlay.resx">
+      <DependentUpon>NonCompletePlay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="player_info.resx">
       <DependentUpon>player_info.cs</DependentUpon>

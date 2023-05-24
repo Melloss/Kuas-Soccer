@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Kuas
 {
-    public partial class landing_page : Form
+    public partial class LandingPage : Form
     {
-        public landing_page()
+        public LandingPage()
         {
             InitializeComponent();
         }
@@ -37,7 +37,7 @@ namespace Kuas
 
         private void round37Group_MouseCaptureChanged_1(object sender, EventArgs e)
         {
-            non_completed_play ncp = new non_completed_play();
+            NonCompletePlay ncp = new NonCompletePlay();
             ncp.ShowDialog();
         }
 
