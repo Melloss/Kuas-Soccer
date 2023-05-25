@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Kuas
 {
-    public partial class CompletedPlay : Form
+    public partial class PlayerInformation : Form
     {
-        public CompletedPlay()
+        public PlayerInformation()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox15_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label58_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

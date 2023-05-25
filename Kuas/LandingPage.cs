@@ -59,7 +59,8 @@ namespace Kuas
 
         private void panel6_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Worked");
+            CompletedPlay cp = new CompletedPlay();
+            cp.ShowDialog();
         }
 
         private void landing_page_Load(object sender, EventArgs e)

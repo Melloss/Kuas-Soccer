@@ -13,7 +13,7 @@ namespace Kuas
         {
            Application.EnableVisualStyles();
            Application.SetCompatibleTextRenderingDefault(false);
-           Application.Run(new CompletedPlay());
+           Application.Run(new PlayerInformation());
         }
     }
 }

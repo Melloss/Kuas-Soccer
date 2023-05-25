@@ -177,7 +177,7 @@ namespace Kuas
             this.panel5.Controls.Add(this.label4);
             this.panel5.Location = new System.Drawing.Point(202, 485);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(489, 166);
+            this.panel5.Size = new System.Drawing.Size(455, 166);
             this.panel5.TabIndex = 2;
             // 
             // panel8
@@ -191,7 +191,7 @@ namespace Kuas
             this.panel8.Controls.Add(this.pictureBox11);
             this.panel8.Controls.Add(this.label13);
             this.panel8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel8.Location = new System.Drawing.Point(-4, 68);
+            this.panel8.Location = new System.Drawing.Point(-21, 68);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(494, 56);
             this.panel8.TabIndex = 12;
@@ -282,7 +282,7 @@ namespace Kuas
             this.label4.Location = new System.Drawing.Point(0, 0);
             this.label4.Name = "label4";
             this.label4.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
-            this.label4.Size = new System.Drawing.Size(487, 46);
+            this.label4.Size = new System.Drawing.Size(453, 46);
             this.label4.TabIndex = 0;
             this.label4.Text = "U20 World Cup";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -298,7 +298,7 @@ namespace Kuas
             this.panel4.Controls.Add(this.label3);
             this.panel4.Location = new System.Drawing.Point(202, 292);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(490, 161);
+            this.panel4.Size = new System.Drawing.Size(456, 161);
             this.panel4.TabIndex = 2;
             // 
             // panel7
@@ -312,7 +312,7 @@ namespace Kuas
             this.panel7.Controls.Add(this.pictureBox9);
             this.panel7.Controls.Add(this.label9);
             this.panel7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel7.Location = new System.Drawing.Point(-3, 68);
+            this.panel7.Location = new System.Drawing.Point(-20, 68);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(494, 56);
             this.panel7.TabIndex = 11;
@@ -403,7 +403,7 @@ namespace Kuas
             this.label3.Location = new System.Drawing.Point(0, 0);
             this.label3.Name = "label3";
             this.label3.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
-            this.label3.Size = new System.Drawing.Size(488, 46);
+            this.label3.Size = new System.Drawing.Size(454, 46);
             this.label3.TabIndex = 0;
             this.label3.Text = "Serie A";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -421,7 +421,7 @@ namespace Kuas
             this.panel3.Location = new System.Drawing.Point(202, 33);
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 30, 3, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(490, 227);
+            this.panel3.Size = new System.Drawing.Size(456, 227);
             this.panel3.TabIndex = 0;
             this.panel3.Click += new System.EventHandler(this.round37Group_MouseCaptureChanged_1);
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
@@ -437,14 +437,12 @@ namespace Kuas
             this.panel6.Controls.Add(this.pictureBox7);
             this.panel6.Controls.Add(this.brentfordText);
             this.panel6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel6.Location = new System.Drawing.Point(-3, 141);
+            this.panel6.Location = new System.Drawing.Point(-20, 141);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(494, 56);
             this.panel6.TabIndex = 3;
             this.panel6.Click += new System.EventHandler(this.panel6_Click);
             this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
-            this.panel6.MouseLeave += new System.EventHandler(this.panel6_MouseLeave);
-            this.panel6.MouseHover += new System.EventHandler(this.panel6_MouseHover);
             // 
             // label8
             // 
@@ -539,7 +537,7 @@ namespace Kuas
             this.round37Group.Cursor = System.Windows.Forms.Cursors.Hand;
             this.round37Group.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.round37Group.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.round37Group.Location = new System.Drawing.Point(-3, 60);
+            this.round37Group.Location = new System.Drawing.Point(-20, 60);
             this.round37Group.Name = "round37Group";
             this.round37Group.Padding = new System.Windows.Forms.Padding(10);
             this.round37Group.Size = new System.Drawing.Size(494, 64);
@@ -547,7 +545,6 @@ namespace Kuas
             this.round37Group.TabStop = false;
             this.round37Group.Text = "Round 37";
             this.round37Group.MouseCaptureChanged += new System.EventHandler(this.round37Group_MouseCaptureChanged_1);
-            this.round37Group.MouseHover += new System.EventHandler(this.round37Group_MouseHover);
             // 
             // time
             // 
@@ -637,7 +634,7 @@ namespace Kuas
             this.label2.Location = new System.Drawing.Point(0, 0);
             this.label2.Name = "label2";
             this.label2.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
-            this.label2.Size = new System.Drawing.Size(488, 46);
+            this.label2.Size = new System.Drawing.Size(454, 46);
             this.label2.TabIndex = 0;
             this.label2.Text = "Premier Legue";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
