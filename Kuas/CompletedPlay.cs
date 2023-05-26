@@ -26,5 +26,10 @@ namespace Kuas
         {
 
         }
+
+        private void label46_Click(object sender, EventArgs e)
+        {
+            Controller.Goto("harry kaNe");
+        }
     }
 }

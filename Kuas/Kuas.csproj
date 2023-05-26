@@ -54,6 +54,12 @@
     <Compile Include="CompletedPlay.Designer.cs">
       <DependentUpon>CompletedPlay.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controller.cs" />
+    <Compile Include="KuasDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuasDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="LandingPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,17 +72,12 @@
     <Compile Include="NonCompletePlay.Designer.cs">
       <DependentUpon>NonCompletePlay.cs</DependentUpon>
     </Compile>
+    <Compile Include="Player.cs" />
     <Compile Include="PlayerInformation.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PlayerInformation.Designer.cs">
       <DependentUpon>PlayerInformation.cs</DependentUpon>
-    </Compile>
-    <Compile Include="player_info.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="player_info.Designer.cs">
-      <DependentUpon>player_info.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -92,9 +93,6 @@
     <EmbeddedResource Include="PlayerInformation.resx">
       <DependentUpon>PlayerInformation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="player_info.resx">
-      <DependentUpon>player_info.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -104,6 +102,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="KuasDataSet.xsc">
+      <DependentUpon>KuasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KuasDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuasDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuasDataSet.xss">
+      <DependentUpon>KuasDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -116,6 +125,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A.Isak.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B.Guimaraes.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

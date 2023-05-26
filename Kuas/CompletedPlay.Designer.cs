@@ -1357,6 +1357,7 @@ namespace Kuas
             this.label46.Size = new System.Drawing.Size(66, 17);
             this.label46.TabIndex = 1;
             this.label46.Text = "H. Kane";
+            this.label46.Click += new System.EventHandler(this.label46_Click);
             // 
             // pictureBox3
             // 

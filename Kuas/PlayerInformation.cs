@@ -12,9 +12,18 @@ namespace Kuas
 {
     public partial class PlayerInformation : Form
     {
-        public PlayerInformation()
+        public PlayerInformation(Player p)
         {
             InitializeComponent();
+            playerName.Text = p.PlayerName.Trim();
+            minutePlayed.Text = p.MinutePlayed.Trim();
+            playerRate.Text = p.PlayerRate.ToString().Trim();
+        }
+      
+
+        private void PlayerInformation_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
