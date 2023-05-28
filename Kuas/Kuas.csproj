@@ -101,6 +101,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="KuasDataSet.xsc">
       <DependentUpon>KuasDataSet.xsd</DependentUpon>
@@ -130,7 +131,34 @@
     <None Include="Resources\A.Isak.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\B.Guimaraes.jpg" />
+    <None Include="Resources\HarryKane1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Tottenham.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kuluveski.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B.Mubuemo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brentford.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Y.Wissa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\richard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Y.bissouma.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R.Henarry.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A.Hickey.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

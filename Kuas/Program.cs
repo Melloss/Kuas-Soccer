@@ -8,11 +8,11 @@ namespace Kuas
         [STAThread]
         static void Main()
         {
+            //It initialize every Player object and It map Image object to corresponding name
             Controller.GetEverythingReady();
-            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LandingPage());
+            Application.Run(new CompletedPlay());
         }
     }
 }
