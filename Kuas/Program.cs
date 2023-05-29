@@ -12,7 +12,7 @@ namespace Kuas
             Controller.GetEverythingReady();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CompletedPlay());
+            Application.Run(new LandingPage());
         }
     }
 }

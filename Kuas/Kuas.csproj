@@ -160,5 +160,80 @@
   <ItemGroup>
     <None Include="Resources\A.Hickey.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nick_pope.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\K.Trippier.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F.Schar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s.Botman.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D.Burn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S.longstaff.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B.Guimaraes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E.Anderson.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M.Almiron.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C.wilson.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newcastle_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lesterCity_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\daniel Iverson.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\castagne.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\harry_souttar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\johnatan evan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w.Faes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luke_thomas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wiferedNdidi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\youriTielemans.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boubakary soumare.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kelechi iheanaco.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j.vardy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goal_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unbeaten_imge.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

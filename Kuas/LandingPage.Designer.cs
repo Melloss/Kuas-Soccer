@@ -72,6 +72,7 @@ namespace Kuas
             this.newcasteleText = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.searchListBoard = new System.Windows.Forms.ListView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.panel2.SuspendLayout();
@@ -98,6 +99,7 @@ namespace Kuas
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(33)))), ((int)(((byte)(41)))));
+            this.panel1.Controls.Add(this.searchListBoard);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.searchBox);
             this.panel1.Controls.Add(this.pictureBox12);
@@ -125,12 +127,13 @@ namespace Kuas
             this.searchBox.BackColor = System.Drawing.Color.White;
             this.searchBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)), true);
             this.searchBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.searchBox.Location = new System.Drawing.Point(709, 97);
+            this.searchBox.Location = new System.Drawing.Point(720, 9);
             this.searchBox.Margin = new System.Windows.Forms.Padding(10);
             this.searchBox.Name = "searchBox";
             this.searchBox.Size = new System.Drawing.Size(180, 29);
             this.searchBox.TabIndex = 0;
             this.searchBox.WordWrap = false;
+            this.searchBox.TextChanged += new System.EventHandler(this.searchBox_TextChanged_1);
             // 
             // pictureBox12
             // 
@@ -177,7 +180,7 @@ namespace Kuas
             this.panel5.Controls.Add(this.label4);
             this.panel5.Location = new System.Drawing.Point(202, 485);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(421, 166);
+            this.panel5.Size = new System.Drawing.Size(404, 166);
             this.panel5.TabIndex = 2;
             // 
             // panel8
@@ -191,7 +194,7 @@ namespace Kuas
             this.panel8.Controls.Add(this.pictureBox11);
             this.panel8.Controls.Add(this.label13);
             this.panel8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel8.Location = new System.Drawing.Point(-38, 68);
+            this.panel8.Location = new System.Drawing.Point(-46, 68);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(494, 56);
             this.panel8.TabIndex = 12;
@@ -282,7 +285,7 @@ namespace Kuas
             this.label4.Location = new System.Drawing.Point(0, 0);
             this.label4.Name = "label4";
             this.label4.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
-            this.label4.Size = new System.Drawing.Size(419, 46);
+            this.label4.Size = new System.Drawing.Size(402, 46);
             this.label4.TabIndex = 0;
             this.label4.Text = "U20 World Cup";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -298,7 +301,7 @@ namespace Kuas
             this.panel4.Controls.Add(this.label3);
             this.panel4.Location = new System.Drawing.Point(202, 292);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(422, 161);
+            this.panel4.Size = new System.Drawing.Size(405, 161);
             this.panel4.TabIndex = 2;
             // 
             // panel7
@@ -312,7 +315,7 @@ namespace Kuas
             this.panel7.Controls.Add(this.pictureBox9);
             this.panel7.Controls.Add(this.label9);
             this.panel7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel7.Location = new System.Drawing.Point(-37, 68);
+            this.panel7.Location = new System.Drawing.Point(-46, 68);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(494, 56);
             this.panel7.TabIndex = 11;
@@ -403,7 +406,7 @@ namespace Kuas
             this.label3.Location = new System.Drawing.Point(0, 0);
             this.label3.Name = "label3";
             this.label3.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
-            this.label3.Size = new System.Drawing.Size(420, 46);
+            this.label3.Size = new System.Drawing.Size(403, 46);
             this.label3.TabIndex = 0;
             this.label3.Text = "Serie A";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -421,7 +424,7 @@ namespace Kuas
             this.panel3.Location = new System.Drawing.Point(202, 33);
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 30, 3, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(422, 227);
+            this.panel3.Size = new System.Drawing.Size(405, 227);
             this.panel3.TabIndex = 0;
             this.panel3.Click += new System.EventHandler(this.round37Group_MouseCaptureChanged_1);
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
@@ -437,7 +440,7 @@ namespace Kuas
             this.panel6.Controls.Add(this.pictureBox7);
             this.panel6.Controls.Add(this.brentfordText);
             this.panel6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel6.Location = new System.Drawing.Point(-37, 141);
+            this.panel6.Location = new System.Drawing.Point(-46, 141);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(494, 56);
             this.panel6.TabIndex = 3;
@@ -537,7 +540,7 @@ namespace Kuas
             this.round37Group.Cursor = System.Windows.Forms.Cursors.Hand;
             this.round37Group.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.round37Group.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.round37Group.Location = new System.Drawing.Point(-37, 60);
+            this.round37Group.Location = new System.Drawing.Point(-46, 60);
             this.round37Group.Name = "round37Group";
             this.round37Group.Padding = new System.Windows.Forms.Padding(10);
             this.round37Group.Size = new System.Drawing.Size(494, 64);
@@ -634,10 +637,29 @@ namespace Kuas
             this.label2.Location = new System.Drawing.Point(0, 0);
             this.label2.Name = "label2";
             this.label2.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
-            this.label2.Size = new System.Drawing.Size(420, 46);
+            this.label2.Size = new System.Drawing.Size(403, 46);
             this.label2.TabIndex = 0;
             this.label2.Text = "Premier Legue";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // searchListBoard
+            // 
+            this.searchListBoard.Alignment = System.Windows.Forms.ListViewAlignment.Default;
+            this.searchListBoard.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.searchListBoard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.searchListBoard.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.searchListBoard.Font = new System.Drawing.Font("Microsoft JhengHei UI Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchListBoard.ForeColor = System.Drawing.Color.White;
+            this.searchListBoard.HideSelection = false;
+            this.searchListBoard.Location = new System.Drawing.Point(720, 39);
+            this.searchListBoard.Name = "searchListBoard";
+            this.searchListBoard.Size = new System.Drawing.Size(180, 102);
+            this.searchListBoard.TabIndex = 5;
+            this.searchListBoard.TileSize = new System.Drawing.Size(150, 20);
+            this.searchListBoard.UseCompatibleStateImageBehavior = false;
+            this.searchListBoard.View = System.Windows.Forms.View.Tile;
+            this.searchListBoard.Visible = false;
+            this.searchListBoard.SelectedIndexChanged += new System.EventHandler(this.searchListBoard_SelectedIndexChanged);
             // 
             // LandingPage
             // 
@@ -651,7 +673,6 @@ namespace Kuas
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.landing_page_Load);
             this.MouseHover += new System.EventHandler(this.round37Group_MouseHover);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -727,5 +748,6 @@ namespace Kuas
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.ListView searchListBoard;
     }
 }

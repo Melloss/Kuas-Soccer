@@ -151,4 +151,79 @@
   <data name="Y_Wissa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Y.Wissa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="boubakary_soumare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boubakary soumare.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B_Guimaraes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B.Guimaraes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="castagne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\castagne.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_wilson" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C.wilson.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="daniel_Iverson" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\daniel Iverson.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D_Burn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D.Burn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="E_Anderson" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\E.Anderson.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F_Schar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F.Schar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="harry_souttar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\harry_souttar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="johnatan_evan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\johnatan evan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="j_vardy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\j.vardy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kelechi_iheanaco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kelechi iheanaco.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K_Trippier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\K.Trippier.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lesterCity_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lesterCity_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="luke_thomas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\luke_thomas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M_Almiron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\M.Almiron.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newcastle_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newcastle_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nick_pope" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nick_pope.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_Botman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s.Botman.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_longstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S.longstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wiferedNdidi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wiferedNdidi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w_Faes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w.Faes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="youriTielemans" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\youriTielemans.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="goal_save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\goal_save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unbeaten_imge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unbeaten_imge.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

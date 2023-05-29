@@ -63,11 +63,6 @@ namespace Kuas
             cp.ShowDialog();
         }
 
-        private void landing_page_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
 
@@ -91,6 +86,43 @@ namespace Kuas
         private void searchBox_Click(object sender, EventArgs e)
         {
             searchBox.Text = "";
+        }
+
+        private void searchBox_TextChanged_1(object sender, EventArgs e)
+        {
+            List<String> searchedPlayers = new List<String>();
+            searchListBoard.Visible = true;
+            if (searchBox.Text.Length == 0)
+            {
+                searchListBoard.Visible = false;
+                searchListBoard.Clear();
+            }
+            else if(searchBox.Text.Length > 1)
+            {
+                searchedPlayers = Controller.SearchPlayer(searchBox.Text);
+                searchListBoard.Clear();
+           
+                for(int i = 0; i< searchedPlayers.Count(); i++)
+                {
+                    searchListBoard.Items.Add(searchedPlayers[i]);
+                }
+               
+            }
+            searchedPlayers.Clear();
+
+
+        }
+
+        private void searchListBoard_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ListView.SelectedListViewItemCollection selectedItems = searchListBoard.SelectedItems;
+
+            foreach (ListViewItem item in selectedItems)
+            {
+                Controller.GotoPlayer(item.Text);
+                searchBox.Clear();
+                break;
+            }
         }
     }
 }

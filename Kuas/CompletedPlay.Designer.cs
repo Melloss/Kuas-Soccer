@@ -35,8 +35,10 @@ namespace Kuas
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel32 = new System.Windows.Forms.Panel();
@@ -109,52 +111,52 @@ namespace Kuas
             this.panel25 = new System.Windows.Forms.Panel();
             this.panel29 = new System.Windows.Forms.Panel();
             this.label55 = new System.Windows.Forms.Label();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.label56 = new System.Windows.Forms.Label();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.label57 = new System.Windows.Forms.Label();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.panel28 = new System.Windows.Forms.Panel();
             this.label52 = new System.Windows.Forms.Label();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label53 = new System.Windows.Forms.Label();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label54 = new System.Windows.Forms.Label();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.panel27 = new System.Windows.Forms.Panel();
             this.label49 = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label50 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label51 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel26 = new System.Windows.Forms.Panel();
             this.label48 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label47 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label46 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label68 = new System.Windows.Forms.Label();
             this.panel30 = new System.Windows.Forms.Panel();
             this.label59 = new System.Windows.Forms.Label();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.label58 = new System.Windows.Forms.Label();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.label71 = new System.Windows.Forms.Label();
             this.panel31 = new System.Windows.Forms.Panel();
             this.label64 = new System.Windows.Forms.Label();
-            this.label63 = new System.Windows.Forms.Label();
-            this.label60 = new System.Windows.Forms.Label();
-            this.label61 = new System.Windows.Forms.Label();
-            this.label62 = new System.Windows.Forms.Label();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.label63 = new System.Windows.Forms.Label();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.label60 = new System.Windows.Forms.Label();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.label61 = new System.Windows.Forms.Label();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label62 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel32.SuspendLayout();
@@ -163,31 +165,29 @@ namespace Kuas
             this.panel10.SuspendLayout();
             this.panel25.SuspendLayout();
             this.panel29.SuspendLayout();
-            this.panel28.SuspendLayout();
-            this.panel27.SuspendLayout();
-            this.panel26.SuspendLayout();
-            this.panel30.SuspendLayout();
-            this.panel31.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            this.panel28.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            this.panel27.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            this.panel26.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel30.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            this.panel31.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -205,7 +205,7 @@ namespace Kuas
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(819, 160);
+            this.panel1.Size = new System.Drawing.Size(989, 160);
             this.panel1.TabIndex = 1;
             // 
             // label6
@@ -216,7 +216,7 @@ namespace Kuas
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label6.Location = new System.Drawing.Point(380, 125);
+            this.label6.Location = new System.Drawing.Point(465, 125);
             this.label6.Name = "label6";
             this.label6.Padding = new System.Windows.Forms.Padding(3);
             this.label6.Size = new System.Drawing.Size(60, 19);
@@ -230,7 +230,7 @@ namespace Kuas
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label5.Location = new System.Drawing.Point(359, 103);
+            this.label5.Location = new System.Drawing.Point(444, 103);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(102, 13);
             this.label5.TabIndex = 6;
@@ -243,7 +243,7 @@ namespace Kuas
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label4.Location = new System.Drawing.Point(387, 52);
+            this.label4.Location = new System.Drawing.Point(472, 52);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(46, 22);
             this.label4.TabIndex = 5;
@@ -256,11 +256,23 @@ namespace Kuas
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label3.Location = new System.Drawing.Point(327, 9);
+            this.label3.Location = new System.Drawing.Point(412, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(167, 15);
             this.label3.TabIndex = 4;
             this.label3.Text = "PREMIER LEAGUE . JOR. 37";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pictureBox2.Location = new System.Drawing.Point(536, 39);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(56, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
             // 
             // label2
             // 
@@ -268,7 +280,7 @@ namespace Kuas
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label2.Location = new System.Drawing.Point(513, 52);
+            this.label2.Location = new System.Drawing.Point(598, 52);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(91, 25);
             this.label2.TabIndex = 2;
@@ -280,11 +292,23 @@ namespace Kuas
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label1.Location = new System.Drawing.Point(137, 52);
+            this.label1.Location = new System.Drawing.Point(222, 52);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(179, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tottenham Hotspur";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pictureBox1.Location = new System.Drawing.Point(394, 39);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(56, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // flowLayoutPanel1
             // 
@@ -297,7 +321,7 @@ namespace Kuas
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 160);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(819, 365);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(989, 445);
             this.flowLayoutPanel1.TabIndex = 2;
             // 
             // panel4
@@ -364,18 +388,18 @@ namespace Kuas
             this.panel4.Controls.Add(this.label7);
             this.panel4.Controls.Add(this.label11);
             this.panel4.Controls.Add(this.label25);
-            this.panel4.Location = new System.Drawing.Point(450, 40);
-            this.panel4.Margin = new System.Windows.Forms.Padding(450, 40, 40, 40);
+            this.panel4.Location = new System.Drawing.Point(350, 40);
+            this.panel4.Margin = new System.Windows.Forms.Padding(350, 40, 40, 40);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(464, 696);
+            this.panel4.Size = new System.Drawing.Size(682, 709);
             this.panel4.TabIndex = 4;
             // 
             // panel32
             // 
-            this.panel32.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.panel32.BackColor = System.Drawing.Color.OrangeRed;
             this.panel32.Controls.Add(this.label65);
             this.panel32.Controls.Add(this.label66);
-            this.panel32.Location = new System.Drawing.Point(264, 248);
+            this.panel32.Location = new System.Drawing.Point(382, 258);
             this.panel32.Name = "panel32";
             this.panel32.Size = new System.Drawing.Size(164, 25);
             this.panel32.TabIndex = 59;
@@ -404,10 +428,10 @@ namespace Kuas
             // 
             // panel33
             // 
-            this.panel33.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.panel33.BackColor = System.Drawing.Color.DodgerBlue;
             this.panel33.Controls.Add(this.label67);
             this.panel33.Controls.Add(this.label69);
-            this.panel33.Location = new System.Drawing.Point(16, 248);
+            this.panel33.Location = new System.Drawing.Point(134, 258);
             this.panel33.Name = "panel33";
             this.panel33.Size = new System.Drawing.Size(252, 25);
             this.panel33.TabIndex = 58;
@@ -437,7 +461,7 @@ namespace Kuas
             // label43
             // 
             this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(68, 632);
+            this.label43.Location = new System.Drawing.Point(186, 642);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(13, 13);
             this.label43.TabIndex = 56;
@@ -446,7 +470,7 @@ namespace Kuas
             // label44
             // 
             this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(366, 632);
+            this.label44.Location = new System.Drawing.Point(484, 642);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(13, 13);
             this.label44.TabIndex = 55;
@@ -454,16 +478,16 @@ namespace Kuas
             // 
             // panel23
             // 
-            this.panel23.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.panel23.Location = new System.Drawing.Point(226, 648);
+            this.panel23.BackColor = System.Drawing.Color.OrangeRed;
+            this.panel23.Location = new System.Drawing.Point(344, 658);
             this.panel23.Name = "panel23";
             this.panel23.Size = new System.Drawing.Size(202, 10);
             this.panel23.TabIndex = 54;
             // 
             // panel24
             // 
-            this.panel24.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.panel24.Location = new System.Drawing.Point(16, 648);
+            this.panel24.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel24.Location = new System.Drawing.Point(134, 658);
             this.panel24.Name = "panel24";
             this.panel24.Size = new System.Drawing.Size(211, 10);
             this.panel24.TabIndex = 53;
@@ -472,7 +496,7 @@ namespace Kuas
             // 
             this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label45.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label45.Location = new System.Drawing.Point(3, 618);
+            this.label45.Location = new System.Drawing.Point(121, 628);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(456, 27);
             this.label45.TabIndex = 57;
@@ -482,7 +506,7 @@ namespace Kuas
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(68, 592);
+            this.label36.Location = new System.Drawing.Point(186, 602);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(13, 13);
             this.label36.TabIndex = 51;
@@ -491,7 +515,7 @@ namespace Kuas
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(366, 592);
+            this.label37.Location = new System.Drawing.Point(484, 602);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(13, 13);
             this.label37.TabIndex = 50;
@@ -499,16 +523,16 @@ namespace Kuas
             // 
             // panel19
             // 
-            this.panel19.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.panel19.Location = new System.Drawing.Point(223, 608);
+            this.panel19.BackColor = System.Drawing.Color.OrangeRed;
+            this.panel19.Location = new System.Drawing.Point(341, 618);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(205, 10);
             this.panel19.TabIndex = 49;
             // 
             // panel20
             // 
-            this.panel20.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.panel20.Location = new System.Drawing.Point(16, 608);
+            this.panel20.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel20.Location = new System.Drawing.Point(134, 618);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(208, 18);
             this.panel20.TabIndex = 48;
@@ -517,7 +541,7 @@ namespace Kuas
             // 
             this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label38.Location = new System.Drawing.Point(3, 578);
+            this.label38.Location = new System.Drawing.Point(121, 588);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(456, 27);
             this.label38.TabIndex = 52;
@@ -527,7 +551,7 @@ namespace Kuas
             // label39
             // 
             this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(68, 550);
+            this.label39.Location = new System.Drawing.Point(180, 560);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(19, 13);
             this.label39.TabIndex = 46;
@@ -536,7 +560,7 @@ namespace Kuas
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(366, 550);
+            this.label40.Location = new System.Drawing.Point(484, 560);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(13, 13);
             this.label40.TabIndex = 45;
@@ -544,16 +568,16 @@ namespace Kuas
             // 
             // panel21
             // 
-            this.panel21.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.panel21.Location = new System.Drawing.Point(267, 566);
+            this.panel21.BackColor = System.Drawing.Color.OrangeRed;
+            this.panel21.Location = new System.Drawing.Point(385, 576);
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(161, 10);
             this.panel21.TabIndex = 44;
             // 
             // panel22
             // 
-            this.panel22.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.panel22.Location = new System.Drawing.Point(16, 566);
+            this.panel22.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel22.Location = new System.Drawing.Point(134, 576);
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(253, 10);
             this.panel22.TabIndex = 43;
@@ -562,7 +586,7 @@ namespace Kuas
             // 
             this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label41.Location = new System.Drawing.Point(3, 509);
+            this.label41.Location = new System.Drawing.Point(121, 519);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(456, 27);
             this.label41.TabIndex = 42;
@@ -573,7 +597,7 @@ namespace Kuas
             // 
             this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label42.Location = new System.Drawing.Point(7, 536);
+            this.label42.Location = new System.Drawing.Point(121, 546);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(456, 27);
             this.label42.TabIndex = 47;
@@ -583,7 +607,7 @@ namespace Kuas
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(68, 463);
+            this.label29.Location = new System.Drawing.Point(186, 473);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(25, 13);
             this.label29.TabIndex = 40;
@@ -592,7 +616,7 @@ namespace Kuas
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(366, 463);
+            this.label30.Location = new System.Drawing.Point(484, 473);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(25, 13);
             this.label30.TabIndex = 39;
@@ -600,16 +624,16 @@ namespace Kuas
             // 
             // panel15
             // 
-            this.panel15.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.panel15.Location = new System.Drawing.Point(332, 479);
+            this.panel15.BackColor = System.Drawing.Color.OrangeRed;
+            this.panel15.Location = new System.Drawing.Point(450, 489);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(96, 10);
             this.panel15.TabIndex = 38;
             // 
             // panel16
             // 
-            this.panel16.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.panel16.Location = new System.Drawing.Point(16, 479);
+            this.panel16.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel16.Location = new System.Drawing.Point(134, 489);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(318, 10);
             this.panel16.TabIndex = 37;
@@ -618,7 +642,7 @@ namespace Kuas
             // 
             this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label31.Location = new System.Drawing.Point(3, 449);
+            this.label31.Location = new System.Drawing.Point(121, 459);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(456, 27);
             this.label31.TabIndex = 41;
@@ -628,7 +652,7 @@ namespace Kuas
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(68, 421);
+            this.label32.Location = new System.Drawing.Point(186, 431);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(25, 13);
             this.label32.TabIndex = 35;
@@ -637,7 +661,7 @@ namespace Kuas
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(366, 421);
+            this.label33.Location = new System.Drawing.Point(484, 431);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(25, 13);
             this.label33.TabIndex = 34;
@@ -645,16 +669,16 @@ namespace Kuas
             // 
             // panel17
             // 
-            this.panel17.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.panel17.Location = new System.Drawing.Point(277, 437);
+            this.panel17.BackColor = System.Drawing.Color.OrangeRed;
+            this.panel17.Location = new System.Drawing.Point(395, 447);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(151, 10);
             this.panel17.TabIndex = 33;
             // 
             // panel18
             // 
-            this.panel18.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.panel18.Location = new System.Drawing.Point(16, 437);
+            this.panel18.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel18.Location = new System.Drawing.Point(134, 447);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(266, 10);
             this.panel18.TabIndex = 32;
@@ -663,7 +687,7 @@ namespace Kuas
             // 
             this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label34.Location = new System.Drawing.Point(3, 380);
+            this.label34.Location = new System.Drawing.Point(121, 390);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(456, 27);
             this.label34.TabIndex = 31;
@@ -674,7 +698,7 @@ namespace Kuas
             // 
             this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label35.Location = new System.Drawing.Point(7, 407);
+            this.label35.Location = new System.Drawing.Point(125, 417);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(456, 27);
             this.label35.TabIndex = 36;
@@ -684,7 +708,7 @@ namespace Kuas
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(65, 345);
+            this.label26.Location = new System.Drawing.Point(186, 361);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(19, 13);
             this.label26.TabIndex = 29;
@@ -693,7 +717,7 @@ namespace Kuas
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(365, 345);
+            this.label27.Location = new System.Drawing.Point(483, 361);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(19, 13);
             this.label27.TabIndex = 28;
@@ -701,16 +725,16 @@ namespace Kuas
             // 
             // panel13
             // 
-            this.panel13.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.panel13.Location = new System.Drawing.Point(251, 361);
+            this.panel13.BackColor = System.Drawing.Color.OrangeRed;
+            this.panel13.Location = new System.Drawing.Point(369, 377);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(177, 10);
             this.panel13.TabIndex = 27;
             // 
             // panel14
             // 
-            this.panel14.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.panel14.Location = new System.Drawing.Point(16, 361);
+            this.panel14.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel14.Location = new System.Drawing.Point(134, 377);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(235, 10);
             this.panel14.TabIndex = 26;
@@ -719,7 +743,7 @@ namespace Kuas
             // 
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label28.Location = new System.Drawing.Point(3, 331);
+            this.label28.Location = new System.Drawing.Point(131, 342);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(456, 27);
             this.label28.TabIndex = 30;
@@ -729,7 +753,7 @@ namespace Kuas
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(68, 303);
+            this.label22.Location = new System.Drawing.Point(186, 313);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(13, 13);
             this.label22.TabIndex = 24;
@@ -738,7 +762,7 @@ namespace Kuas
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(365, 303);
+            this.label23.Location = new System.Drawing.Point(483, 313);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(13, 13);
             this.label23.TabIndex = 23;
@@ -746,16 +770,16 @@ namespace Kuas
             // 
             // panel11
             // 
-            this.panel11.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.panel11.Location = new System.Drawing.Point(83, 319);
+            this.panel11.BackColor = System.Drawing.Color.OrangeRed;
+            this.panel11.Location = new System.Drawing.Point(201, 329);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(345, 10);
             this.panel11.TabIndex = 22;
             // 
             // panel12
             // 
-            this.panel12.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.panel12.Location = new System.Drawing.Point(16, 319);
+            this.panel12.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel12.Location = new System.Drawing.Point(134, 329);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(68, 10);
             this.panel12.TabIndex = 21;
@@ -764,7 +788,7 @@ namespace Kuas
             // 
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label24.Location = new System.Drawing.Point(3, 289);
+            this.label24.Location = new System.Drawing.Point(121, 299);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(456, 27);
             this.label24.TabIndex = 20;
@@ -774,7 +798,7 @@ namespace Kuas
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(68, 149);
+            this.label14.Location = new System.Drawing.Point(186, 159);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(13, 13);
             this.label14.TabIndex = 16;
@@ -783,7 +807,7 @@ namespace Kuas
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(365, 149);
+            this.label15.Location = new System.Drawing.Point(483, 159);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(13, 13);
             this.label15.TabIndex = 15;
@@ -794,13 +818,14 @@ namespace Kuas
             this.panel9.BackColor = System.Drawing.Color.LightSteelBlue;
             this.panel9.Controls.Add(this.label21);
             this.panel9.Controls.Add(this.label18);
-            this.panel9.Location = new System.Drawing.Point(290, 217);
+            this.panel9.Location = new System.Drawing.Point(408, 227);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(138, 25);
             this.panel9.TabIndex = 19;
             // 
             // label21
             // 
+            this.label21.BackColor = System.Drawing.Color.OrangeRed;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.Color.Black;
             this.label21.Location = new System.Drawing.Point(0, 0);
@@ -812,6 +837,7 @@ namespace Kuas
             // 
             // label18
             // 
+            this.label18.BackColor = System.Drawing.Color.OrangeRed;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.White;
             this.label18.Location = new System.Drawing.Point(108, 0);
@@ -823,10 +849,10 @@ namespace Kuas
             // 
             // panel10
             // 
-            this.panel10.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.panel10.BackColor = System.Drawing.Color.DodgerBlue;
             this.panel10.Controls.Add(this.label20);
             this.panel10.Controls.Add(this.label17);
-            this.panel10.Location = new System.Drawing.Point(16, 217);
+            this.panel10.Location = new System.Drawing.Point(134, 227);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(274, 25);
             this.panel10.TabIndex = 18;
@@ -855,8 +881,8 @@ namespace Kuas
             // 
             // panel7
             // 
-            this.panel7.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.panel7.Location = new System.Drawing.Point(341, 165);
+            this.panel7.BackColor = System.Drawing.Color.OrangeRed;
+            this.panel7.Location = new System.Drawing.Point(459, 175);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(87, 10);
             this.panel7.TabIndex = 14;
@@ -865,7 +891,7 @@ namespace Kuas
             // 
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label19.Location = new System.Drawing.Point(3, 187);
+            this.label19.Location = new System.Drawing.Point(121, 197);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(456, 27);
             this.label19.TabIndex = 17;
@@ -874,8 +900,8 @@ namespace Kuas
             // 
             // panel8
             // 
-            this.panel8.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.panel8.Location = new System.Drawing.Point(16, 165);
+            this.panel8.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel8.Location = new System.Drawing.Point(134, 175);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(325, 10);
             this.panel8.TabIndex = 13;
@@ -884,7 +910,7 @@ namespace Kuas
             // 
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label16.Location = new System.Drawing.Point(3, 135);
+            this.label16.Location = new System.Drawing.Point(121, 145);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(456, 27);
             this.label16.TabIndex = 12;
@@ -894,7 +920,7 @@ namespace Kuas
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(68, 106);
+            this.label10.Location = new System.Drawing.Point(186, 116);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(13, 13);
             this.label10.TabIndex = 11;
@@ -903,7 +929,7 @@ namespace Kuas
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(365, 106);
+            this.label12.Location = new System.Drawing.Point(483, 116);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(13, 13);
             this.label12.TabIndex = 10;
@@ -911,16 +937,16 @@ namespace Kuas
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.panel5.Location = new System.Drawing.Point(220, 122);
+            this.panel5.BackColor = System.Drawing.Color.OrangeRed;
+            this.panel5.Location = new System.Drawing.Point(338, 132);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(208, 10);
             this.panel5.TabIndex = 9;
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.panel6.Location = new System.Drawing.Point(16, 122);
+            this.panel6.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel6.Location = new System.Drawing.Point(134, 132);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(208, 10);
             this.panel6.TabIndex = 8;
@@ -929,7 +955,7 @@ namespace Kuas
             // 
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label13.Location = new System.Drawing.Point(3, 92);
+            this.label13.Location = new System.Drawing.Point(121, 102);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(456, 27);
             this.label13.TabIndex = 7;
@@ -939,7 +965,7 @@ namespace Kuas
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(68, 60);
+            this.label9.Location = new System.Drawing.Point(186, 70);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(27, 13);
             this.label9.TabIndex = 6;
@@ -948,7 +974,7 @@ namespace Kuas
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(365, 60);
+            this.label8.Location = new System.Drawing.Point(483, 70);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(27, 13);
             this.label8.TabIndex = 5;
@@ -956,16 +982,16 @@ namespace Kuas
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.panel3.Location = new System.Drawing.Point(300, 76);
+            this.panel3.BackColor = System.Drawing.Color.OrangeRed;
+            this.panel3.Location = new System.Drawing.Point(418, 86);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(128, 10);
             this.panel3.TabIndex = 4;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.panel2.Location = new System.Drawing.Point(16, 76);
+            this.panel2.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel2.Location = new System.Drawing.Point(134, 86);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(286, 10);
             this.panel2.TabIndex = 3;
@@ -974,7 +1000,7 @@ namespace Kuas
             // 
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label7.Location = new System.Drawing.Point(3, 46);
+            this.label7.Location = new System.Drawing.Point(121, 56);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(456, 27);
             this.label7.TabIndex = 2;
@@ -992,7 +1018,7 @@ namespace Kuas
             this.label11.Margin = new System.Windows.Forms.Padding(0);
             this.label11.Name = "label11";
             this.label11.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.label11.Size = new System.Drawing.Size(462, 46);
+            this.label11.Size = new System.Drawing.Size(680, 46);
             this.label11.TabIndex = 0;
             this.label11.Text = "MATCH STATS";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1001,7 +1027,7 @@ namespace Kuas
             // 
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label25.Location = new System.Drawing.Point(3, 289);
+            this.label25.Location = new System.Drawing.Point(121, 299);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(456, 27);
             this.label25.TabIndex = 25;
@@ -1018,7 +1044,7 @@ namespace Kuas
             this.panel25.Controls.Add(this.panel27);
             this.panel25.Controls.Add(this.panel26);
             this.panel25.Controls.Add(this.label68);
-            this.panel25.Location = new System.Drawing.Point(230, 816);
+            this.panel25.Location = new System.Drawing.Point(230, 829);
             this.panel25.Margin = new System.Windows.Forms.Padding(230, 40, 40, 40);
             this.panel25.Name = "panel25";
             this.panel25.Size = new System.Drawing.Size(464, 390);
@@ -1049,6 +1075,16 @@ namespace Kuas
             this.label55.Text = "88\'";
             this.label55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
+            this.pictureBox12.Location = new System.Drawing.Point(250, 38);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(30, 23);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 4;
+            this.pictureBox12.TabStop = false;
+            // 
             // label56
             // 
             this.label56.AutoSize = true;
@@ -1062,6 +1098,16 @@ namespace Kuas
             this.label56.Text = "B. Mbeumo";
             this.label56.Click += new System.EventHandler(this.label56_Click);
             // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
+            this.pictureBox13.Location = new System.Drawing.Point(250, 6);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(30, 29);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox13.TabIndex = 2;
+            this.pictureBox13.TabStop = false;
+            // 
             // label57
             // 
             this.label57.AutoSize = true;
@@ -1074,6 +1120,17 @@ namespace Kuas
             this.label57.TabIndex = 1;
             this.label57.Text = "Y. Wissa";
             this.label57.Click += new System.EventHandler(this.label57_Click);
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
+            this.pictureBox14.Location = new System.Drawing.Point(399, 14);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(43, 39);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox14.TabIndex = 0;
+            this.pictureBox14.TabStop = false;
             // 
             // panel28
             // 
@@ -1100,6 +1157,16 @@ namespace Kuas
             this.label52.Text = "62\'";
             this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(250, 38);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(30, 23);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 4;
+            this.pictureBox9.TabStop = false;
+            // 
             // label53
             // 
             this.label53.AutoSize = true;
@@ -1113,6 +1180,16 @@ namespace Kuas
             this.label53.Text = "A. Hickey";
             this.label53.Click += new System.EventHandler(this.label53_Click);
             // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
+            this.pictureBox10.Location = new System.Drawing.Point(250, 6);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(30, 29);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 2;
+            this.pictureBox10.TabStop = false;
+            // 
             // label54
             // 
             this.label54.AutoSize = true;
@@ -1125,6 +1202,17 @@ namespace Kuas
             this.label54.TabIndex = 1;
             this.label54.Text = "B. Mbeumo";
             this.label54.Click += new System.EventHandler(this.label54_Click);
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
+            this.pictureBox11.Location = new System.Drawing.Point(399, 14);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(43, 39);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox11.TabIndex = 0;
+            this.pictureBox11.TabStop = false;
             // 
             // panel27
             // 
@@ -1151,6 +1239,16 @@ namespace Kuas
             this.label49.Text = "50\'";
             this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(250, 38);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(30, 23);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 4;
+            this.pictureBox6.TabStop = false;
+            // 
             // label50
             // 
             this.label50.AutoSize = true;
@@ -1164,6 +1262,16 @@ namespace Kuas
             this.label50.Text = "Y.Wissa";
             this.label50.Click += new System.EventHandler(this.label50_Click);
             // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(250, 6);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(30, 29);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 2;
+            this.pictureBox7.TabStop = false;
+            // 
             // label51
             // 
             this.label51.AutoSize = true;
@@ -1176,6 +1284,17 @@ namespace Kuas
             this.label51.TabIndex = 1;
             this.label51.Text = "B. Mbeumo";
             this.label51.Click += new System.EventHandler(this.label51_Click);
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(399, 14);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(43, 39);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 0;
+            this.pictureBox8.TabStop = false;
             // 
             // panel26
             // 
@@ -1203,6 +1322,16 @@ namespace Kuas
             this.label48.Text = "8\'";
             this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(180, 45);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(30, 23);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 4;
+            this.pictureBox5.TabStop = false;
+            // 
             // label47
             // 
             this.label47.AutoSize = true;
@@ -1216,6 +1345,16 @@ namespace Kuas
             this.label47.Text = "D. Kulusevski";
             this.label47.Click += new System.EventHandler(this.label47_Click);
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(180, 10);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(30, 29);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 2;
+            this.pictureBox4.TabStop = false;
+            // 
             // label46
             // 
             this.label46.AutoSize = true;
@@ -1228,6 +1367,17 @@ namespace Kuas
             this.label46.TabIndex = 1;
             this.label46.Text = "H. Kane";
             this.label46.Click += new System.EventHandler(this.label46_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(19, 19);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(43, 39);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
             // 
             // label68
             // 
@@ -1255,7 +1405,7 @@ namespace Kuas
             this.panel30.Controls.Add(this.label58);
             this.panel30.Controls.Add(this.pictureBox15);
             this.panel30.Controls.Add(this.label71);
-            this.panel30.Location = new System.Drawing.Point(40, 1286);
+            this.panel30.Location = new System.Drawing.Point(40, 1299);
             this.panel30.Margin = new System.Windows.Forms.Padding(40);
             this.panel30.Name = "panel30";
             this.panel30.Size = new System.Drawing.Size(464, 141);
@@ -1272,6 +1422,16 @@ namespace Kuas
             this.label59.Text = "90\'+1";
             this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
+            this.pictureBox16.Location = new System.Drawing.Point(192, 78);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(32, 28);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox16.TabIndex = 3;
+            this.pictureBox16.TabStop = false;
+            // 
             // label58
             // 
             this.label58.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -1284,6 +1444,18 @@ namespace Kuas
             this.label58.Text = "Richarlison";
             this.label58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label58.Click += new System.EventHandler(this.label58_Click);
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
+            this.pictureBox15.Location = new System.Drawing.Point(20, 66);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox15.TabIndex = 1;
+            this.pictureBox15.TabStop = false;
+            this.pictureBox15.Click += new System.EventHandler(this.pictureBox15_Click);
             // 
             // label71
             // 
@@ -1315,7 +1487,7 @@ namespace Kuas
             this.panel31.Controls.Add(this.label61);
             this.panel31.Controls.Add(this.pictureBox18);
             this.panel31.Controls.Add(this.label62);
-            this.panel31.Location = new System.Drawing.Point(450, 1507);
+            this.panel31.Location = new System.Drawing.Point(450, 1520);
             this.panel31.Margin = new System.Windows.Forms.Padding(450, 40, 40, 40);
             this.panel31.Name = "panel31";
             this.panel31.Size = new System.Drawing.Size(464, 201);
@@ -1332,6 +1504,16 @@ namespace Kuas
             this.label64.Text = "68\'";
             this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBox20
+            // 
+            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
+            this.pictureBox20.Location = new System.Drawing.Point(245, 127);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(41, 38);
+            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox20.TabIndex = 7;
+            this.pictureBox20.TabStop = false;
+            // 
             // label63
             // 
             this.label63.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -1345,6 +1527,17 @@ namespace Kuas
             this.label63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label63.Click += new System.EventHandler(this.label63_Click);
             // 
+            // pictureBox19
+            // 
+            this.pictureBox19.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
+            this.pictureBox19.Location = new System.Drawing.Point(393, 121);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox19.TabIndex = 5;
+            this.pictureBox19.TabStop = false;
+            // 
             // label60
             // 
             this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1355,6 +1548,16 @@ namespace Kuas
             this.label60.TabIndex = 4;
             this.label60.Text = "45\'";
             this.label60.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
+            this.pictureBox17.Location = new System.Drawing.Point(170, 71);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(41, 38);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox17.TabIndex = 3;
+            this.pictureBox17.TabStop = false;
             // 
             // label61
             // 
@@ -1368,6 +1571,17 @@ namespace Kuas
             this.label61.Text = "Y. Bissouma";
             this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label61.Click += new System.EventHandler(this.label61_Click);
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
+            this.pictureBox18.Location = new System.Drawing.Point(20, 66);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox18.TabIndex = 1;
+            this.pictureBox18.TabStop = false;
             // 
             // label62
             // 
@@ -1385,223 +1599,11 @@ namespace Kuas
             this.label62.Text = "Cards";
             this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(250, 38);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(30, 23);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 4;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(250, 6);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(30, 29);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 2;
-            this.pictureBox13.TabStop = false;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(399, 14);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(43, 39);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox14.TabIndex = 0;
-            this.pictureBox14.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(250, 38);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(30, 23);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 4;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(250, 6);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(30, 29);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 2;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(399, 14);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(43, 39);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 0;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(250, 38);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(30, 23);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 4;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(250, 6);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(30, 29);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 2;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(399, 14);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(43, 39);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 0;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(180, 45);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(30, 23);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(180, 10);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(30, 29);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 2;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(19, 19);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(43, 39);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
-            this.pictureBox16.Location = new System.Drawing.Point(192, 78);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(32, 28);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox16.TabIndex = 3;
-            this.pictureBox16.TabStop = false;
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
-            this.pictureBox15.Location = new System.Drawing.Point(20, 66);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox15.TabIndex = 1;
-            this.pictureBox15.TabStop = false;
-            this.pictureBox15.Click += new System.EventHandler(this.pictureBox15_Click);
-            // 
-            // pictureBox20
-            // 
-            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
-            this.pictureBox20.Location = new System.Drawing.Point(245, 127);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(41, 38);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 7;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox19
-            // 
-            this.pictureBox19.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
-            this.pictureBox19.Location = new System.Drawing.Point(393, 121);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox19.TabIndex = 5;
-            this.pictureBox19.TabStop = false;
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
-            this.pictureBox17.Location = new System.Drawing.Point(170, 71);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(41, 38);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox17.TabIndex = 3;
-            this.pictureBox17.TabStop = false;
-            // 
-            // pictureBox18
-            // 
-            this.pictureBox18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
-            this.pictureBox18.Location = new System.Drawing.Point(20, 66);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox18.TabIndex = 1;
-            this.pictureBox18.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.pictureBox2.Location = new System.Drawing.Point(451, 39);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(56, 50);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.pictureBox1.Location = new System.Drawing.Point(309, 39);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(56, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
             // CompletedPlay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(819, 525);
+            this.ClientSize = new System.Drawing.Size(989, 605);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel1);
             this.Name = "CompletedPlay";
@@ -1609,6 +1611,8 @@ namespace Kuas
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
@@ -1619,34 +1623,32 @@ namespace Kuas
             this.panel25.ResumeLayout(false);
             this.panel29.ResumeLayout(false);
             this.panel29.PerformLayout();
-            this.panel28.ResumeLayout(false);
-            this.panel28.PerformLayout();
-            this.panel27.ResumeLayout(false);
-            this.panel27.PerformLayout();
-            this.panel26.ResumeLayout(false);
-            this.panel26.PerformLayout();
-            this.panel30.ResumeLayout(false);
-            this.panel31.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            this.panel28.ResumeLayout(false);
+            this.panel28.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            this.panel27.ResumeLayout(false);
+            this.panel27.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            this.panel26.ResumeLayout(false);
+            this.panel26.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel30.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            this.panel31.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -8,6 +8,7 @@ namespace Kuas
 {
     class Controller
     {
+        private static String connectionString = "Data Source=ADMINRG-ACM4MC7;Initial Catalog=Kuas;Integrated Security=True";
         public static Dictionary<string, Image> Images = new Dictionary<string, Image>();
         private static List<Player> players = new List<Player>();
         public static  List<Player> Players
@@ -18,14 +19,13 @@ namespace Kuas
 
         public static void GetEverythingReady()
         {
-            String connectionString = "Data Source=ADMINRG-ACM4MC7;Initial Catalog=Kuas;Integrated Security=True";
+            
             SqlConnection connection = new SqlConnection(connectionString);
             try
             {
                 connection.Open();
                 SqlCommand command = new SqlCommand("SELECT * FROM playerInfo", connection);
                 SqlDataReader reader = command.ExecuteReader();
-                int i = 1;
                 while (reader.Read())
                 {
                     Player p = new Player();
@@ -81,7 +81,6 @@ namespace Kuas
                 connection.Close();
             }
             Images.Add("HarryKane", Properties.Resources.HarryKane);
-            Images.Add("A.Isak", Properties.Resources.A_Isak);
             Images.Add("TottenhamLogo", Properties.Resources.Tottenham);
             Images.Add("Kulusevski", Properties.Resources.kuluveski);
             Images.Add("BryanMbeumo", Properties.Resources.B_Mubuemo);
@@ -91,6 +90,34 @@ namespace Kuas
             Images.Add("YvesBissouma", Properties.Resources.Y_bissouma);
             Images.Add("YoaneWissa", Properties.Resources.Y_Wissa);
             Images.Add("AaronHickey", Properties.Resources.A_Hickey);
+            Images.Add("NickPope", Properties.Resources.nick_pope);
+            Images.Add("KieranTrippier", Properties.Resources.K_Trippier);
+            Images.Add("FabianSchar", Properties.Resources.F_Schar);
+            Images.Add("SvenBotman", Properties.Resources.s_Botman);
+            Images.Add("DanielBurn", Properties.Resources.D_Burn);
+            Images.Add("SeanLongstaff", Properties.Resources.S_longstaff);
+            Images.Add("BrunoGuimaraes", Properties.Resources.B_Guimaraes);
+            Images.Add("ElliotAnnderson", Properties.Resources.E_Anderson);
+            Images.Add("MiguelAlmiron", Properties.Resources.M_Almiron);
+            Images.Add("CallumWilson", Properties.Resources.C_wilson);
+            Images.Add("AlexanderIsak", Properties.Resources.A_Isak);
+            Images.Add("Newcastle", Properties.Resources.newcastle_logo);
+            Images.Add("Leicester", Properties.Resources.lesterCity_logo);
+            Images.Add("DanielIversen", Properties.Resources.daniel_Iverson);
+            Images.Add("Castgne", Properties.Resources.castagne);
+            Images.Add("HarrySouttar", Properties.Resources.harry_souttar);
+            Images.Add("JonnyEvans", Properties.Resources.johnatan_evan);
+            Images.Add("WoutFaes", Properties.Resources.w_Faes);
+            Images.Add("LukeThomas", Properties.Resources.luke_thomas);
+            Images.Add("WilfredNidi", Properties.Resources.wiferedNdidi);
+            Images.Add("YouriTielemans", Properties.Resources.youriTielemans);
+            Images.Add("BoubakarySoumare", Properties.Resources.boubakary_soumare);
+            Images.Add("KelechiIheanacho", Properties.Resources.kelechi_iheanaco);
+            Images.Add("JamieVardy", Properties.Resources.j_vardy);
+
+
+
+
 
         }
 
@@ -106,7 +133,34 @@ namespace Kuas
             }
         }
 
-        
+        public static List<String> SearchPlayer(String playerName)
+        {
+            List<String> ps = new List<string>();
+            SqlConnection connection = new SqlConnection(connectionString);
+            try
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("SELECT * FROM playerInfo WHERE playerName LIKE \'%"+playerName+"%\' ",connection);
+                SqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    ps.Add(reader["playerName"].ToString().Trim());
+                }
+            }
+            catch(SqlException e)
+            {
+                MessageBox.Show(e.Message);
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return ps;
+        }
 
     }
 }

@@ -35,12 +35,12 @@ namespace Kuas
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint1 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "86,0,0,0,0,0");
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint1 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "80,0,0,0,0,0");
             System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint2 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "80,0,0,0,0,0");
             System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint3 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "50,0,0,0,0,0");
             System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint4 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "90,0,0,0,0,0");
             System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint5 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "70,0,0,0,0,0");
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint6 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "80,0,0,0,0,0");
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint6 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "86,0,0,0,0,0");
             this.panel1 = new System.Windows.Forms.Panel();
             this.playerAge = new System.Windows.Forms.Label();
             this.playerPrice = new System.Windows.Forms.Label();
@@ -58,12 +58,12 @@ namespace Kuas
             this.label18 = new System.Windows.Forms.Label();
             this.yellowCard = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.label16 = new System.Windows.Forms.Label();
+            this.unbeaten_label = new System.Windows.Forms.Label();
             this.assists = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.label14 = new System.Windows.Forms.Label();
+            this.unbeaten_picture = new System.Windows.Forms.PictureBox();
+            this.goal_catch_label = new System.Windows.Forms.Label();
             this.Goals = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.goal_catch = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.minutePlayed = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -115,8 +115,8 @@ namespace Kuas
             this.flowLayoutPanel1.SuspendLayout();
             this.seasonCard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.unbeaten_picture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goal_catch)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.personalDataCard.SuspendLayout();
@@ -280,20 +280,19 @@ namespace Kuas
             // 
             // seasonCard
             // 
-            this.seasonCard.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.seasonCard.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.seasonCard.BackColor = System.Drawing.Color.White;
             this.seasonCard.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.seasonCard.Controls.Add(this.redCard);
             this.seasonCard.Controls.Add(this.label18);
             this.seasonCard.Controls.Add(this.yellowCard);
             this.seasonCard.Controls.Add(this.pictureBox7);
-            this.seasonCard.Controls.Add(this.label16);
+            this.seasonCard.Controls.Add(this.unbeaten_label);
             this.seasonCard.Controls.Add(this.assists);
-            this.seasonCard.Controls.Add(this.pictureBox6);
-            this.seasonCard.Controls.Add(this.label14);
+            this.seasonCard.Controls.Add(this.unbeaten_picture);
+            this.seasonCard.Controls.Add(this.goal_catch_label);
             this.seasonCard.Controls.Add(this.Goals);
-            this.seasonCard.Controls.Add(this.pictureBox5);
+            this.seasonCard.Controls.Add(this.goal_catch);
             this.seasonCard.Controls.Add(this.label12);
             this.seasonCard.Controls.Add(this.minutePlayed);
             this.seasonCard.Controls.Add(this.pictureBox4);
@@ -350,16 +349,16 @@ namespace Kuas
             this.pictureBox7.TabIndex = 13;
             this.pictureBox7.TabStop = false;
             // 
-            // label16
+            // unbeaten_label
             // 
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label16.Location = new System.Drawing.Point(279, 137);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(52, 25);
-            this.label16.TabIndex = 12;
-            this.label16.Text = "Assists";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.unbeaten_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.unbeaten_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.unbeaten_label.Location = new System.Drawing.Point(267, 137);
+            this.unbeaten_label.Name = "unbeaten_label";
+            this.unbeaten_label.Size = new System.Drawing.Size(82, 48);
+            this.unbeaten_label.TabIndex = 12;
+            this.unbeaten_label.Text = "Assists";
+            this.unbeaten_label.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // assists
             // 
@@ -372,26 +371,26 @@ namespace Kuas
             this.assists.Text = "5";
             this.assists.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox6
+            // unbeaten_picture
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(282, 61);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(49, 43);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 10;
-            this.pictureBox6.TabStop = false;
+            this.unbeaten_picture.Image = ((System.Drawing.Image)(resources.GetObject("unbeaten_picture.Image")));
+            this.unbeaten_picture.Location = new System.Drawing.Point(282, 61);
+            this.unbeaten_picture.Name = "unbeaten_picture";
+            this.unbeaten_picture.Size = new System.Drawing.Size(49, 43);
+            this.unbeaten_picture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.unbeaten_picture.TabIndex = 10;
+            this.unbeaten_picture.TabStop = false;
             // 
-            // label14
+            // goal_catch_label
             // 
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label14.Location = new System.Drawing.Point(203, 137);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(52, 28);
-            this.label14.TabIndex = 9;
-            this.label14.Text = "Goals";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.goal_catch_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.goal_catch_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.goal_catch_label.Location = new System.Drawing.Point(203, 137);
+            this.goal_catch_label.Name = "goal_catch_label";
+            this.goal_catch_label.Size = new System.Drawing.Size(52, 43);
+            this.goal_catch_label.TabIndex = 9;
+            this.goal_catch_label.Text = "Goals";
+            this.goal_catch_label.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // Goals
             // 
@@ -404,15 +403,15 @@ namespace Kuas
             this.Goals.Text = "30";
             this.Goals.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox5
+            // goal_catch
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(206, 61);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(49, 43);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 7;
-            this.pictureBox5.TabStop = false;
+            this.goal_catch.Image = ((System.Drawing.Image)(resources.GetObject("goal_catch.Image")));
+            this.goal_catch.Location = new System.Drawing.Point(206, 61);
+            this.goal_catch.Name = "goal_catch";
+            this.goal_catch.Size = new System.Drawing.Size(49, 43);
+            this.goal_catch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.goal_catch.TabIndex = 7;
+            this.goal_catch.TabStop = false;
             // 
             // label12
             // 
@@ -495,8 +494,7 @@ namespace Kuas
             // 
             // personalDataCard
             // 
-            this.personalDataCard.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.personalDataCard.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.personalDataCard.BackColor = System.Drawing.Color.White;
             this.personalDataCard.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.personalDataCard.Controls.Add(this.tableLayoutPanel1);
@@ -699,8 +697,7 @@ namespace Kuas
             // 
             // careerDetailCard
             // 
-            this.careerDetailCard.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.careerDetailCard.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.careerDetailCard.BackColor = System.Drawing.Color.White;
             this.careerDetailCard.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.careerDetailCard.Controls.Add(this.tableLayoutPanel2);
@@ -937,10 +934,10 @@ namespace Kuas
             this.attributesCard.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.attributesCard.Controls.Add(this.attributeChart);
             this.attributesCard.Controls.Add(this.label60);
-            this.attributesCard.Location = new System.Drawing.Point(300, 990);
-            this.attributesCard.Margin = new System.Windows.Forms.Padding(300, 40, 40, 40);
+            this.attributesCard.Location = new System.Drawing.Point(350, 990);
+            this.attributesCard.Margin = new System.Windows.Forms.Padding(350, 40, 40, 40);
             this.attributesCard.Name = "attributesCard";
-            this.attributesCard.Size = new System.Drawing.Size(758, 350);
+            this.attributesCard.Size = new System.Drawing.Size(722, 304);
             this.attributesCard.TabIndex = 20;
             // 
             // attributeChart
@@ -963,7 +960,9 @@ namespace Kuas
             dataPoint1.BackImageTransparentColor = System.Drawing.Color.Empty;
             dataPoint1.BackImageWrapMode = System.Windows.Forms.DataVisualization.Charting.ChartImageWrapMode.Tile;
             dataPoint1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            dataPoint1.Label = "Stamina";
+            dataPoint1.Label = "Pace";
+            dataPoint1.LabelAngle = 0;
+            dataPoint1.LabelBackColor = System.Drawing.Color.White;
             dataPoint1.LabelForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             dataPoint2.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.DiagonalLeft;
             dataPoint2.BackImageTransparentColor = System.Drawing.Color.Empty;
@@ -971,30 +970,40 @@ namespace Kuas
             dataPoint2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
             dataPoint2.IsValueShownAsLabel = false;
             dataPoint2.Label = "Shot";
+            dataPoint2.LabelAngle = 0;
+            dataPoint2.LabelBackColor = System.Drawing.Color.White;
             dataPoint2.LabelForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             dataPoint3.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.DiagonalLeft;
             dataPoint3.BackImageTransparentColor = System.Drawing.Color.Empty;
             dataPoint3.BackImageWrapMode = System.Windows.Forms.DataVisualization.Charting.ChartImageWrapMode.Tile;
             dataPoint3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
             dataPoint3.Label = "Pass";
+            dataPoint3.LabelAngle = 0;
+            dataPoint3.LabelBackColor = System.Drawing.Color.White;
             dataPoint3.LabelForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             dataPoint4.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.DiagonalLeft;
             dataPoint4.BackImageTransparentColor = System.Drawing.Color.Empty;
             dataPoint4.BackImageWrapMode = System.Windows.Forms.DataVisualization.Charting.ChartImageWrapMode.Tile;
             dataPoint4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
             dataPoint4.Label = "Dribbling";
+            dataPoint4.LabelAngle = 0;
+            dataPoint4.LabelBackColor = System.Drawing.Color.White;
             dataPoint4.LabelForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             dataPoint5.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.DiagonalLeft;
             dataPoint5.BackImageTransparentColor = System.Drawing.Color.Empty;
             dataPoint5.BackImageWrapMode = System.Windows.Forms.DataVisualization.Charting.ChartImageWrapMode.Tile;
             dataPoint5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
             dataPoint5.Label = "Defender";
+            dataPoint5.LabelAngle = 0;
+            dataPoint5.LabelBackColor = System.Drawing.Color.White;
             dataPoint5.LabelForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             dataPoint6.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.DiagonalLeft;
             dataPoint6.BackImageTransparentColor = System.Drawing.Color.Empty;
             dataPoint6.BackImageWrapMode = System.Windows.Forms.DataVisualization.Charting.ChartImageWrapMode.Tile;
             dataPoint6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            dataPoint6.Label = "Pace";
+            dataPoint6.Label = "Stamina";
+            dataPoint6.LabelAngle = 0;
+            dataPoint6.LabelBackColor = System.Drawing.Color.White;
             dataPoint6.LabelForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             series1.Points.Add(dataPoint1);
             series1.Points.Add(dataPoint2);
@@ -1004,7 +1013,7 @@ namespace Kuas
             series1.Points.Add(dataPoint6);
             series1.YValuesPerPoint = 6;
             this.attributeChart.Series.Add(series1);
-            this.attributeChart.Size = new System.Drawing.Size(756, 302);
+            this.attributeChart.Size = new System.Drawing.Size(720, 256);
             this.attributeChart.TabIndex = 1;
             this.attributeChart.Text = "chart1";
             // 
@@ -1028,7 +1037,7 @@ namespace Kuas
             this.label60.Margin = new System.Windows.Forms.Padding(0);
             this.label60.Name = "label60";
             this.label60.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.label60.Size = new System.Drawing.Size(756, 46);
+            this.label60.Size = new System.Drawing.Size(720, 46);
             this.label60.TabIndex = 0;
             this.label60.Text = "ATTRIBUTES";
             this.label60.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1054,8 +1063,8 @@ namespace Kuas
             this.flowLayoutPanel1.ResumeLayout(false);
             this.seasonCard.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.unbeaten_picture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goal_catch)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.personalDataCard.ResumeLayout(false);
@@ -1093,12 +1102,12 @@ namespace Kuas
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label yellowCard;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label unbeaten_label;
         private System.Windows.Forms.Label assists;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.PictureBox unbeaten_picture;
+        private System.Windows.Forms.Label goal_catch_label;
         private System.Windows.Forms.Label Goals;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox goal_catch;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label minutePlayed;
         private System.Windows.Forms.PictureBox pictureBox4;
