@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace Kuas
@@ -11,15 +12,15 @@ namespace Kuas
         private static String connectionString = "Data Source=ADMINRG-ACM4MC7;Initial Catalog=Kuas;Integrated Security=True";
         public static Dictionary<string, Image> Images = new Dictionary<string, Image>();
         private static List<Player> players = new List<Player>();
-        public static  List<Player> Players
+        public static List<Player> Players
         {
-            get { return players;}
+            get { return players; }
             set { players = value; }
         }
 
         public static void GetEverythingReady()
         {
-            
+
             SqlConnection connection = new SqlConnection(connectionString);
             try
             {
@@ -115,17 +116,13 @@ namespace Kuas
             Images.Add("KelechiIheanacho", Properties.Resources.kelechi_iheanaco);
             Images.Add("JamieVardy", Properties.Resources.j_vardy);
 
-
-
-
-
         }
 
         public static void GotoPlayer(String pName)
         {
             for (int i = 0; i < players.Count; i++)
             {
-                if (players[i].PlayerName.Trim().Equals(pName,StringComparison.OrdinalIgnoreCase))
+                if (players[i].PlayerName.Trim().Equals(pName, StringComparison.OrdinalIgnoreCase))
                 {
                     new PlayerInformation(players[i]).ShowDialog();
 
@@ -140,18 +137,18 @@ namespace Kuas
             try
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand("SELECT * FROM playerInfo WHERE playerName LIKE \'%"+playerName+"%\' ",connection);
+                SqlCommand command = new SqlCommand("SELECT * FROM playerInfo WHERE playerName LIKE \'%" + playerName + "%\' ", connection);
                 SqlDataReader reader = command.ExecuteReader();
                 while (reader.Read())
                 {
                     ps.Add(reader["playerName"].ToString().Trim());
                 }
             }
-            catch(SqlException e)
+            catch (SqlException e)
             {
                 MessageBox.Show(e.Message);
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 MessageBox.Show(e.Message);
             }
@@ -162,5 +159,97 @@ namespace Kuas
             return ps;
         }
 
+
+        public static void createAccount(UserAccount account)
+        {
+            SqlConnection connection = new SqlConnection(connectionString);
+            try
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("INSERT INTO userAccount([First Name],[Last Name],[Age],[Email],[Password],[Gender]) VALUES('"+account.FirstName+"','"+account.LastName+"',"+account.Age+",'"+account.Email+"','"+account.Password+"','"+account.Gender+"')", connection);
+                int rowAffected = command.ExecuteNonQuery();
+                MessageBox.Show(rowAffected + " Row Affected!");
+            }
+            catch (SqlException e)
+            {
+                MessageBox.Show(e.Message);
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
+        public static bool isThereAccout(String em, String ps)
+        {
+            SqlConnection connection = new SqlConnection(connectionString);
+            try
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("SELECT * FROM userAccount where Email = '"+em+"' And [Password] = '"+ps+"';", connection);
+                SqlDataReader reader = command.ExecuteReader();
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        Properties.Settings.Default.userName = reader["First Name"].ToString() + " " + reader["Last Name"].ToString();
+                    }
+                    return true;
+                }
+                else
+                {
+                    MessageBox.Show("The Email or Password is Incorrect", "Kuas");
+                    return false;
+                }
+
+            }
+            catch (SqlException e)
+            {
+                MessageBox.Show(e.Message);
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return false;
+        }
+        public static bool IsValidEmail(string email)
+        {
+            string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+
+            if (Regex.IsMatch(email, pattern))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+    }
+    class UserAccount
+    {
+        public String FirstName;
+        public String LastName;
+        public int Age;
+        public String Email;
+        public String Password;
+        public String Gender;
+        public UserAccount(String fn, String ln, int a, String em, String ps, String gn)
+        {
+            this.FirstName = fn;
+            this.LastName = ln;
+            this.Age = a;
+            this.Email = em;
+            this.Password = ps;
+            this.Gender = gn;
+        }
     }
 }

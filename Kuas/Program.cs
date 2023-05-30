@@ -8,11 +8,16 @@ namespace Kuas
         [STAThread]
         static void Main()
         {
-            //It initialize every Player object and It map Image object to corresponding name
+            /*Properties.Settings.Default.isLoggedBefore = false;
+            Properties.Settings.Default.Save();*/
             Controller.GetEverythingReady();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LandingPage());
+            if(Properties.Settings.Default.isLoggedBefore == true)
+            {
+                Application.Run(new LandingPage());
+            }
+            else Application.Run(new LoginPage());
         }
     }
 }

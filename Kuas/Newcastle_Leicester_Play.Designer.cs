@@ -1,7 +1,7 @@
 ﻿
 namespace Kuas
 {
-    partial class NonCompletePlay
+    partial class Newcastle_Leicester_Play
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Kuas
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NonCompletePlay));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Newcastle_Leicester_Play));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();

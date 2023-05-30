@@ -178,7 +178,7 @@ namespace Kuas
             this.playerRole.BackColor = System.Drawing.Color.DarkRed;
             this.playerRole.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold);
             this.playerRole.ForeColor = System.Drawing.Color.White;
-            this.playerRole.Location = new System.Drawing.Point(664, 135);
+            this.playerRole.Location = new System.Drawing.Point(676, 135);
             this.playerRole.Name = "playerRole";
             this.playerRole.Size = new System.Drawing.Size(42, 19);
             this.playerRole.TabIndex = 7;
@@ -191,7 +191,7 @@ namespace Kuas
             this.playerShirtNumber.BackColor = System.Drawing.Color.Black;
             this.playerShirtNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.playerShirtNumber.ForeColor = System.Drawing.Color.White;
-            this.playerShirtNumber.Location = new System.Drawing.Point(631, 135);
+            this.playerShirtNumber.Location = new System.Drawing.Point(643, 135);
             this.playerShirtNumber.Name = "playerShirtNumber";
             this.playerShirtNumber.Size = new System.Drawing.Size(35, 19);
             this.playerShirtNumber.TabIndex = 6;

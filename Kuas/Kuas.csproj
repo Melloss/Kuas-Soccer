@@ -48,11 +48,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CompletedPlay.cs">
+    <Compile Include="LoginPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CompletedPlay.Designer.cs">
-      <DependentUpon>CompletedPlay.cs</DependentUpon>
+    <Compile Include="LoginPage.Designer.cs">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Signup.Designer.cs">
+      <DependentUpon>Signup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tottenham_Brentford_Play.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tottenham_Brentford_Play.Designer.cs">
+      <DependentUpon>Tottenham_Brentford_Play.cs</DependentUpon>
     </Compile>
     <Compile Include="Controller.cs" />
     <Compile Include="KuasDataSet.Designer.cs">
@@ -66,11 +78,11 @@
     <Compile Include="LandingPage.Designer.cs">
       <DependentUpon>LandingPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="NonCompletePlay.cs">
+    <Compile Include="Newcastle_Leicester_Play.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NonCompletePlay.Designer.cs">
-      <DependentUpon>NonCompletePlay.cs</DependentUpon>
+    <Compile Include="Newcastle_Leicester_Play.Designer.cs">
+      <DependentUpon>Newcastle_Leicester_Play.cs</DependentUpon>
     </Compile>
     <Compile Include="Player.cs" />
     <Compile Include="PlayerInformation.cs">
@@ -81,14 +93,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CompletedPlay.resx">
-      <DependentUpon>CompletedPlay.cs</DependentUpon>
+    <EmbeddedResource Include="LoginPage.resx">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Signup.resx">
+      <DependentUpon>Signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tottenham_Brentford_Play.resx">
+      <DependentUpon>Tottenham_Brentford_Play.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LandingPage.resx">
       <DependentUpon>LandingPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NonCompletePlay.resx">
-      <DependentUpon>NonCompletePlay.cs</DependentUpon>
+    <EmbeddedResource Include="Newcastle_Leicester_Play.resx">
+      <DependentUpon>Newcastle_Leicester_Play.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PlayerInformation.resx">
       <DependentUpon>PlayerInformation.cs</DependentUpon>

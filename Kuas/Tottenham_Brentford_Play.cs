@@ -3,9 +3,9 @@ using System.Windows.Forms;
 
 namespace Kuas
 {
-    public partial class CompletedPlay : Form
+    public partial class Tottenham_Brentford_Play : Form
     {
-        public CompletedPlay()
+        public Tottenham_Brentford_Play()
         {
             InitializeComponent();
         }

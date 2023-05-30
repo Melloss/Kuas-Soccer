@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Kuas
 {
-    public partial class NonCompletePlay : Form
+    public partial class Newcastle_Leicester_Play : Form
     {
-        public NonCompletePlay()
+        public Newcastle_Leicester_Play()
         {
             InitializeComponent();
         }

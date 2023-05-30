@@ -1,7 +1,7 @@
 ﻿
 namespace Kuas
 {
-    partial class CompletedPlay
+    partial class Tottenham_Brentford_Play
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Kuas
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CompletedPlay));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tottenham_Brentford_Play));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();

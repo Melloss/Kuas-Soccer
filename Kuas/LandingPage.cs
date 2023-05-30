@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Kuas
@@ -15,6 +11,7 @@ namespace Kuas
         public LandingPage()
         {
             InitializeComponent();
+            userName.Text = Properties.Settings.Default.userName;
         }
 
       
@@ -37,7 +34,7 @@ namespace Kuas
 
         private void round37Group_MouseCaptureChanged_1(object sender, EventArgs e)
         {
-            NonCompletePlay ncp = new NonCompletePlay();
+            Newcastle_Leicester_Play ncp = new Newcastle_Leicester_Play();
             ncp.ShowDialog();
         }
 
@@ -59,31 +56,11 @@ namespace Kuas
 
         private void panel6_Click(object sender, EventArgs e)
         {
-            CompletedPlay cp = new CompletedPlay();
+            Tottenham_Brentford_Play cp = new Tottenham_Brentford_Play();
             cp.ShowDialog();
         }
 
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel6_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void searchBox_TextChanged(object sender, EventArgs e)
-        {
-            //Searching...
-        }
-
-        private void searchBox_Click(object sender, EventArgs e)
+         private void searchBox_Click(object sender, EventArgs e)
         {
             searchBox.Text = "";
         }
@@ -92,13 +69,17 @@ namespace Kuas
         {
             List<String> searchedPlayers = new List<String>();
             searchListBoard.Visible = true;
+           
             if (searchBox.Text.Length == 0)
             {
                 searchListBoard.Visible = false;
                 searchListBoard.Clear();
+                
             }
+            
             else if(searchBox.Text.Length > 1)
             {
+                
                 searchedPlayers = Controller.SearchPlayer(searchBox.Text);
                 searchListBoard.Clear();
            
