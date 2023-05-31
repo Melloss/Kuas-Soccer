@@ -105,5 +105,29 @@ namespace Kuas
                 break;
             }
         }
+
+        private void userName_Click(object sender, EventArgs e)
+        {
+             DialogResult result = MessageBox.Show("Do you want to Logout?", "Log Out", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if(result == DialogResult.Yes)
+            {
+                Properties.Settings.Default.isLoggedBefore = false;
+                Properties.Settings.Default.userName = "";
+                Properties.Settings.Default.Save();
+                new LoginPage().Show();
+                this.Close();
+                
+            }
+            else if(result == DialogResult.No)
+            {
+
+            }
+
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 namespace Kuas
 {
     static class Program
@@ -8,12 +7,14 @@ namespace Kuas
         [STAThread]
         static void Main()
         {
+
             /*Properties.Settings.Default.isLoggedBefore = false;
             Properties.Settings.Default.Save();*/
             Controller.GetEverythingReady();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            if(Properties.Settings.Default.isLoggedBefore == true)
+            if (Properties.Settings.Default.isLoggedBefore == true)
             {
                 Application.Run(new LandingPage());
             }

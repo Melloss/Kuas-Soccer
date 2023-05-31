@@ -7,8 +7,11 @@ using System.Windows.Forms;
 
 namespace Kuas
 {
+    
     class Controller
     {
+      
+
         private static String connectionString = "Data Source=ADMINRG-ACM4MC7;Initial Catalog=Kuas;Integrated Security=True";
         public static Dictionary<string, Image> Images = new Dictionary<string, Image>();
         private static List<Player> players = new List<Player>();
@@ -160,15 +163,15 @@ namespace Kuas
         }
 
 
-        public static void createAccount(UserAccount account)
+        public static bool createAccount(UserAccount account)
         {
             SqlConnection connection = new SqlConnection(connectionString);
             try
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand("INSERT INTO userAccount([First Name],[Last Name],[Age],[Email],[Password],[Gender]) VALUES('"+account.FirstName+"','"+account.LastName+"',"+account.Age+",'"+account.Email+"','"+account.Password+"','"+account.Gender+"')", connection);
+                SqlCommand command = new SqlCommand("INSERT INTO userAccount([First Name],[Last Name],[Email],[Password],[Gender]) VALUES('"+account.FirstName+"','"+account.LastName+"','"+account.Email+"','"+account.Password+"','"+account.Gender+"')", connection);
                 int rowAffected = command.ExecuteNonQuery();
-                MessageBox.Show(rowAffected + " Row Affected!");
+                return true;
             }
             catch (SqlException e)
             {
@@ -182,6 +185,7 @@ namespace Kuas
             {
                 connection.Close();
             }
+            return false;
         }
         public static bool isThereAccout(String em, String ps)
         {
@@ -233,20 +237,19 @@ namespace Kuas
                 return false;
             }
         }
+        
     }
     class UserAccount
     {
         public String FirstName;
         public String LastName;
-        public int Age;
         public String Email;
         public String Password;
         public String Gender;
-        public UserAccount(String fn, String ln, int a, String em, String ps, String gn)
+        public UserAccount(String fn, String ln, String em, String ps, String gn)
         {
             this.FirstName = fn;
             this.LastName = ln;
-            this.Age = a;
             this.Email = em;
             this.Password = ps;
             this.Gender = gn;

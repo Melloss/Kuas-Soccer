@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Kuas
@@ -31,8 +32,8 @@ namespace Kuas
                         String password = passwordInput.Text;
                         if (Controller.isThereAccout(email, password) == true)
                         {
-                            new LandingPage().ShowDialog();
-                            this.Close();
+                            new LandingPage().Show();
+                            /**this.Hide();**/
                             Properties.Settings.Default.isLoggedBefore = true;
                             Properties.Settings.Default.Save();
                         }
@@ -44,6 +45,7 @@ namespace Kuas
                 passwordError.Text = "Password is Empty!";
             }
             else passwordError.Text = "";
+            
            
         }
 
@@ -61,14 +63,28 @@ namespace Kuas
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close(); ;
+
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            new Signup().ShowDialog();
+            
+            new Signup().Show(); 
         }
 
-   
+        private void button1_MouseHover(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.Red;
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.Transparent;
+        }
     }
 }

@@ -31,18 +31,13 @@ namespace Kuas
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginPage));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.emailTextBox = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.logoPanel = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.mainPanel = new System.Windows.Forms.Panel();
-            this.emailInput = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.emailError = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.loginButton = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.passwordError = new System.Windows.Forms.Label();
@@ -50,24 +45,29 @@ namespace Kuas
             this.panel10 = new System.Windows.Forms.Panel();
             this.passwordInput = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.emailError = new System.Windows.Forms.Label();
+            this.emailInput = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.emailTextBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.loginButton = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.logoPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel2.SuspendLayout();
             this.mainPanel.SuspendLayout();
-            this.emailInput.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel5.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.emailInput.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -82,67 +82,59 @@ namespace Kuas
             this.panel1.ForeColor = System.Drawing.Color.White;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(795, 569);
+            this.panel1.Padding = new System.Windows.Forms.Padding(5);
+            this.panel1.Size = new System.Drawing.Size(817, 569);
             this.panel1.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(33)))), ((int)(((byte)(41)))));
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(33)))), ((int)(((byte)(41)))));
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(793, 45);
-            this.panel2.TabIndex = 6;
-            // 
-            // label3
-            // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label3.Font = new System.Drawing.Font("Monotype Corsiva", 25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(312, 56);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(154, 53);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Kuas";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // emailTextBox
-            // 
-            this.emailTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.emailTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.emailTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emailTextBox.ForeColor = System.Drawing.Color.White;
-            this.emailTextBox.Location = new System.Drawing.Point(13, 8);
-            this.emailTextBox.Multiline = true;
-            this.emailTextBox.Name = "emailTextBox";
-            this.emailTextBox.Size = new System.Drawing.Size(306, 26);
-            this.emailTextBox.TabIndex = 1;
-            this.emailTextBox.TextChanged += new System.EventHandler(this.emailTextBox_TextChanged);
-            // 
-            // label1
-            // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(333, 212);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Email";
             // 
             // logoPanel
             // 
             this.logoPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(53)))), ((int)(((byte)(71)))));
             this.logoPanel.Controls.Add(this.pictureBox3);
             this.logoPanel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.logoPanel.Location = new System.Drawing.Point(0, 45);
+            this.logoPanel.Location = new System.Drawing.Point(5, 50);
             this.logoPanel.Name = "logoPanel";
-            this.logoPanel.Size = new System.Drawing.Size(278, 522);
+            this.logoPanel.Size = new System.Drawing.Size(307, 512);
             this.logoPanel.TabIndex = 7;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(307, 512);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(33)))), ((int)(((byte)(41)))));
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(33)))), ((int)(((byte)(41)))));
+            this.panel2.Location = new System.Drawing.Point(5, 5);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(805, 45);
+            this.panel2.TabIndex = 6;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(33)))), ((int)(((byte)(41)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(751, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(51, 42);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "X";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // mainPanel
             // 
@@ -154,75 +146,51 @@ namespace Kuas
             this.mainPanel.Controls.Add(this.label5);
             this.mainPanel.Controls.Add(this.pictureBox1);
             this.mainPanel.Controls.Add(this.label1);
-            this.mainPanel.Controls.Add(this.label3);
             this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mainPanel.Location = new System.Drawing.Point(0, 0);
+            this.mainPanel.Location = new System.Drawing.Point(5, 5);
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(793, 567);
+            this.mainPanel.Size = new System.Drawing.Size(805, 557);
             this.mainPanel.TabIndex = 8;
             // 
-            // emailInput
+            // linkLabel1
             // 
-            this.emailInput.Controls.Add(this.panel4);
-            this.emailInput.Controls.Add(this.emailTextBox);
-            this.emailInput.Dock = System.Windows.Forms.DockStyle.Top;
-            this.emailInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emailInput.Location = new System.Drawing.Point(0, 0);
-            this.emailInput.Name = "emailInput";
-            this.emailInput.Size = new System.Drawing.Size(332, 53);
-            this.emailInput.TabIndex = 6;
+            this.linkLabel1.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.LinkColor = System.Drawing.Color.White;
+            this.linkLabel1.Location = new System.Drawing.Point(523, 483);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(105, 17);
+            this.linkLabel1.TabIndex = 12;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Create Account";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
-            // pictureBox1
+            // loginButton
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(286, 208);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(37, 32);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.White;
-            this.panel4.Location = new System.Drawing.Point(13, 40);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(306, 3);
-            this.panel4.TabIndex = 7;
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.panel6);
-            this.panel5.Controls.Add(this.emailInput);
-            this.panel5.Location = new System.Drawing.Point(423, 190);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(332, 88);
-            this.panel5.TabIndex = 7;
-            // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.emailError);
-            this.panel6.Location = new System.Drawing.Point(13, 59);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(306, 23);
-            this.panel6.TabIndex = 7;
-            // 
-            // emailError
-            // 
-            this.emailError.AutoSize = true;
-            this.emailError.Dock = System.Windows.Forms.DockStyle.Left;
-            this.emailError.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emailError.ForeColor = System.Drawing.Color.Red;
-            this.emailError.Location = new System.Drawing.Point(0, 0);
-            this.emailError.Name = "emailError";
-            this.emailError.Size = new System.Drawing.Size(0, 17);
-            this.emailError.TabIndex = 8;
+            this.loginButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.loginButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.loginButton.FlatAppearance.BorderSize = 2;
+            this.loginButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.loginButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.loginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.loginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginButton.Location = new System.Drawing.Point(487, 423);
+            this.loginButton.Name = "loginButton";
+            this.loginButton.Size = new System.Drawing.Size(176, 38);
+            this.loginButton.TabIndex = 11;
+            this.loginButton.Text = "Login";
+            this.loginButton.UseVisualStyleBackColor = true;
+            this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
             // 
             // panel7
             // 
             this.panel7.Controls.Add(this.panel8);
             this.panel7.Controls.Add(this.panel9);
-            this.panel7.Location = new System.Drawing.Point(423, 285);
+            this.panel7.Location = new System.Drawing.Point(450, 282);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(334, 88);
             this.panel7.TabIndex = 10;
@@ -282,87 +250,128 @@ namespace Kuas
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(286, 301);
+            this.pictureBox2.Location = new System.Drawing.Point(313, 298);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(37, 32);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 8;
             this.pictureBox2.TabStop = false;
             // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.panel6);
+            this.panel5.Controls.Add(this.emailInput);
+            this.panel5.Location = new System.Drawing.Point(450, 187);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(332, 88);
+            this.panel5.TabIndex = 7;
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.emailError);
+            this.panel6.Location = new System.Drawing.Point(13, 59);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(306, 23);
+            this.panel6.TabIndex = 7;
+            // 
+            // emailError
+            // 
+            this.emailError.AutoSize = true;
+            this.emailError.Dock = System.Windows.Forms.DockStyle.Left;
+            this.emailError.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emailError.ForeColor = System.Drawing.Color.Red;
+            this.emailError.Location = new System.Drawing.Point(0, 0);
+            this.emailError.Name = "emailError";
+            this.emailError.Size = new System.Drawing.Size(0, 17);
+            this.emailError.TabIndex = 8;
+            // 
+            // emailInput
+            // 
+            this.emailInput.Controls.Add(this.panel4);
+            this.emailInput.Controls.Add(this.emailTextBox);
+            this.emailInput.Dock = System.Windows.Forms.DockStyle.Top;
+            this.emailInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emailInput.Location = new System.Drawing.Point(0, 0);
+            this.emailInput.Name = "emailInput";
+            this.emailInput.Size = new System.Drawing.Size(332, 53);
+            this.emailInput.TabIndex = 6;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.White;
+            this.panel4.Location = new System.Drawing.Point(13, 40);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(306, 3);
+            this.panel4.TabIndex = 7;
+            // 
+            // emailTextBox
+            // 
+            this.emailTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.emailTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.emailTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emailTextBox.ForeColor = System.Drawing.Color.White;
+            this.emailTextBox.Location = new System.Drawing.Point(13, 8);
+            this.emailTextBox.Multiline = true;
+            this.emailTextBox.Name = "emailTextBox";
+            this.emailTextBox.Size = new System.Drawing.Size(306, 26);
+            this.emailTextBox.TabIndex = 1;
+            this.emailTextBox.TextChanged += new System.EventHandler(this.emailTextBox_TextChanged);
+            // 
             // label5
             // 
-            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(333, 307);
+            this.label5.Location = new System.Drawing.Point(355, 299);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(78, 20);
             this.label5.TabIndex = 9;
             this.label5.Text = "Password";
             // 
-            // loginButton
+            // pictureBox1
             // 
-            this.loginButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.loginButton.FlatAppearance.BorderSize = 2;
-            this.loginButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.loginButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.loginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.loginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loginButton.Location = new System.Drawing.Point(353, 411);
-            this.loginButton.Name = "loginButton";
-            this.loginButton.Size = new System.Drawing.Size(176, 38);
-            this.loginButton.TabIndex = 11;
-            this.loginButton.Text = "Login";
-            this.loginButton.UseVisualStyleBackColor = true;
-            this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(313, 205);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(37, 32);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
-            // pictureBox3
+            // label1
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(278, 522);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(355, 204);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(48, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Email";
             // 
-            // linkLabel1
+            // label3
             // 
-            this.linkLabel1.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.LinkColor = System.Drawing.Color.White;
-            this.linkLabel1.Location = new System.Drawing.Point(389, 471);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(105, 17);
-            this.linkLabel1.TabIndex = 12;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Create Account";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(33)))), ((int)(((byte)(41)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(743, -1);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(51, 46);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "X";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Monotype Corsiva", 25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(313, 6);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(154, 39);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Kuas";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // LoginPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(795, 569);
+            this.ClientSize = new System.Drawing.Size(817, 569);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MinimumSize = new System.Drawing.Size(443, 569);
@@ -370,23 +379,23 @@ namespace Kuas
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginPage";
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
             this.logoPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.mainPanel.ResumeLayout(false);
             this.mainPanel.PerformLayout();
-            this.emailInput.ResumeLayout(false);
-            this.emailInput.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel5.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel5.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.emailInput.ResumeLayout(false);
+            this.emailInput.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
