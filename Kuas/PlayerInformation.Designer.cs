@@ -1056,7 +1056,6 @@ namespace Kuas
             this.Name = "PlayerInformation";
             this.Text = "PlayerInfo";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.PlayerInformation_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.playerClubImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.playerImage)).EndInit();

@@ -226,4 +226,31 @@
   <data name="unbeaten_imge" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\unbeaten_imge.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="arsenal_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arsenal_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b_saka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b_saka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gabriel_jesus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gabriel_jesus.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="G__Xhaka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\G. Xhaka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="j_kuewr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\j.kuewr.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="l_Trossary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\l.Trossary.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smith_rower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smith_rower.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tomas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tomas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wolves_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wolves_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

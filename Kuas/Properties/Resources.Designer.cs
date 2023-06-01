@@ -83,6 +83,16 @@ namespace Kuas.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap arsenal_logo {
+            get {
+                object obj = ResourceManager.GetObject("arsenal_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap B_Guimaraes {
             get {
                 object obj = ResourceManager.GetObject("B_Guimaraes", resourceCulture);
@@ -96,6 +106,16 @@ namespace Kuas.Properties {
         internal static System.Drawing.Bitmap B_Mubuemo {
             get {
                 object obj = ResourceManager.GetObject("B_Mubuemo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap b_saka {
+            get {
+                object obj = ResourceManager.GetObject("b_saka", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,6 +203,26 @@ namespace Kuas.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap G__Xhaka {
+            get {
+                object obj = ResourceManager.GetObject("G__Xhaka", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gabriel_jesus {
+            get {
+                object obj = ResourceManager.GetObject("gabriel_jesus", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap goal_save {
             get {
                 object obj = ResourceManager.GetObject("goal_save", resourceCulture);
@@ -206,6 +246,16 @@ namespace Kuas.Properties {
         internal static System.Drawing.Bitmap HarryKane {
             get {
                 object obj = ResourceManager.GetObject("HarryKane", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap j_kuewr {
+            get {
+                object obj = ResourceManager.GetObject("j_kuewr", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -256,6 +306,16 @@ namespace Kuas.Properties {
         internal static System.Drawing.Bitmap kuluveski {
             get {
                 object obj = ResourceManager.GetObject("kuluveski", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap l_Trossary {
+            get {
+                object obj = ResourceManager.GetObject("l_Trossary", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -353,6 +413,26 @@ namespace Kuas.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap smith_rower {
+            get {
+                object obj = ResourceManager.GetObject("smith_rower", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tomas {
+            get {
+                object obj = ResourceManager.GetObject("tomas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Tottenham {
             get {
                 object obj = ResourceManager.GetObject("Tottenham", resourceCulture);
@@ -386,6 +466,16 @@ namespace Kuas.Properties {
         internal static System.Drawing.Bitmap wiferedNdidi {
             get {
                 object obj = ResourceManager.GetObject("wiferedNdidi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wolves_logo {
+            get {
+                object obj = ResourceManager.GetObject("wolves_logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

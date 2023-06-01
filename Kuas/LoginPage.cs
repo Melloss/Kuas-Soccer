@@ -32,10 +32,15 @@ namespace Kuas
                         String password = passwordInput.Text;
                         if (Controller.isThereAccout(email, password) == true)
                         {
-                            new LandingPage().Show();
-                            /**this.Hide();**/
+                            
+                            
                             Properties.Settings.Default.isLoggedBefore = true;
                             Properties.Settings.Default.Save();
+                            LandingPage landing = new LandingPage();
+                            landing.Show();
+                            this.Hide();
+
+
                         }
                     }
                 }
@@ -79,7 +84,7 @@ namespace Kuas
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void button1_MouseLeave(object sender, EventArgs e)

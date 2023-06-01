@@ -48,6 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arsenal_Wolves_Play.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arsenal_Wolves_Play.Designer.cs">
+      <DependentUpon>Arsenal_Wolves_Play.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Arsenal_Wolves_Play.resx">
+      <DependentUpon>Arsenal_Wolves_Play.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginPage.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -252,6 +261,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\unbeaten_imge.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_saka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G. Xhaka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gabriel_jesus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j.kuewr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l.Trossary.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smith_rower.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tomas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wolves_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arsenal_logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

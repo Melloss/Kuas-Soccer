@@ -118,6 +118,15 @@ namespace Kuas
             Images.Add("BoubakarySoumare", Properties.Resources.boubakary_soumare);
             Images.Add("KelechiIheanacho", Properties.Resources.kelechi_iheanaco);
             Images.Add("JamieVardy", Properties.Resources.j_vardy);
+            Images.Add("GranitXhaka", Properties.Resources.G__Xhaka);
+            Images.Add("GabrielJesus", Properties.Resources.gabriel_jesus);
+            Images.Add("BukayoSaka", Properties.Resources.b_saka);
+            Images.Add("LeandroTrossard", Properties.Resources.l_Trossary);
+            Images.Add("JakubKiwior", Properties.Resources.j_kuewr);
+            Images.Add("EmileSmithRowe", Properties.Resources.smith_rower);
+            Images.Add("ThomasPartey", Properties.Resources.tomas);
+            Images.Add("Arsenal", Properties.Resources.arsenal_logo);
+            Images.Add("Wolves", Properties.Resources.wolves_logo);
 
         }
 

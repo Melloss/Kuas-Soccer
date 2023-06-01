@@ -14,8 +14,6 @@ namespace Kuas
             userName.Text = Properties.Settings.Default.userName;
         }
 
-      
-
         private void round37Group_MouseHover(object sender, EventArgs e)
         {
             newcasteleText.ForeColor = Color.Green;
@@ -67,6 +65,11 @@ namespace Kuas
 
         private void searchBox_TextChanged_1(object sender, EventArgs e)
         {
+            if (searchBox.Text.Length > 15)
+            {
+                animationImage.Visible = false;
+            }
+            else animationImage.Visible = true;
             List<String> searchedPlayers = new List<String>();
             searchListBoard.Visible = true;
            
@@ -74,7 +77,7 @@ namespace Kuas
             {
                 searchListBoard.Visible = false;
                 searchListBoard.Clear();
-                
+               
             }
             
             else if(searchBox.Text.Length > 1)
@@ -108,26 +111,41 @@ namespace Kuas
 
         private void userName_Click(object sender, EventArgs e)
         {
-             DialogResult result = MessageBox.Show("Do you want to Logout?", "Log Out", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show("Do you want to Logout?", "Log Out", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if(result == DialogResult.Yes)
             {
                 Properties.Settings.Default.isLoggedBefore = false;
                 Properties.Settings.Default.userName = "";
                 Properties.Settings.Default.Save();
+                this.Hide();
                 new LoginPage().Show();
-                this.Close();
                 
-            }
-            else if(result == DialogResult.No)
-            {
 
             }
-
         }
 
-        private void pictureBox14_Click(object sender, EventArgs e)
+        private void LandingPage_FormClosed(object sender, FormClosedEventArgs e)
         {
+            Application.Exit();
+        }
 
+        private void label5_Click(object sender, EventArgs e)
+        {
+            new Arsenal_Wolves_Play().ShowDialog();
+        }
+
+        private void wolves_MouseHover(object sender, EventArgs e)
+        {
+            arsenal.ForeColor = Color.Green;
+            score2.ForeColor = Color.Green;
+            wolves.ForeColor = Color.Green;
+        }
+
+        private void wolves_MouseLeave(object sender, EventArgs e)
+        {
+            arsenal.ForeColor = Color.FromArgb(0, 64, 64);
+            score2.ForeColor = Color.FromArgb(0, 64, 64);
+            wolves.ForeColor = Color.FromArgb(0, 64, 64);
         }
     }
 }

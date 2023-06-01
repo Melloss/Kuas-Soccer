@@ -7,9 +7,6 @@ namespace Kuas
         [STAThread]
         static void Main()
         {
-
-            /*Properties.Settings.Default.isLoggedBefore = false;
-            Properties.Settings.Default.Save();*/
             Controller.GetEverythingReady();
 
             Application.EnableVisualStyles();

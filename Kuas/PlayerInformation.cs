@@ -1,6 +1,4 @@
-﻿using Kuas.Properties;
-using System;
-using System.Drawing;
+﻿using System.Drawing;
 using System.Windows.Forms;
 
 namespace Kuas
@@ -41,8 +39,7 @@ namespace Kuas
             mostCommonShirt.Text = p.MostCommonShirtNumber.ToString().Trim();
             otherShirtNumber.Text = p.OtherShirtNumbers.Trim();
 
-            // Set Y value for the chart series
-
+            // Setting Y value for the chart series
             attributeChart.Series["attribute"].Points[0].YValues.SetValue(p.Pace,0);
             attributeChart.Series["attribute"].Points[1].YValues.SetValue(p.Shot, 0);
             attributeChart.Series["attribute"].Points[2].YValues.SetValue(p.Pass, 0);
@@ -76,17 +73,6 @@ namespace Kuas
                 attributeChart.Series["attribute"].Points[4].Label = "Positioning";
                 attributeChart.Series["attribute"].Points[5].Label = "Reflects";
             }
-        }
-      
-
-        private void PlayerInformation_Resize(object sender, EventArgs e)
-        {
-
-        }
-
-        private void PlayerInformation_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

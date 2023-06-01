@@ -9,12 +9,6 @@ namespace Kuas
         {
             InitializeComponent();
         }
-
-        private void pictureBox15_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void label58_Click(object sender, EventArgs e)
         {
             Controller.GotoPlayer("Richarlison");
