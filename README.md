@@ -25,7 +25,7 @@ It takes me 11 days to finish, I hope you Enjoy the show!
 # Not finished Match appear like this
 ![image](https://github.com/Melloss/Kuas-Soccer/assets/101984338/7e624710-fdf7-499e-88c5-595680f66567)
 
-![image](https://github.com/Melloss/Kuas-Soccer/assets/101984338/469c0937-90df-4a8a-a5f5-4e27a13133d4
+![image](https://github.com/Melloss/Kuas-Soccer/assets/101984338/469c0937-90df-4a8a-a5f5-4e27a13133d4)
 
 ![image](https://github.com/Melloss/Kuas-Soccer/assets/101984338/38ef7edd-d1bf-436a-b449-8b3b363cee5e)
  
@@ -40,7 +40,7 @@ It takes me 11 days to finish, I hope you Enjoy the show!
 
 
 
-# We can click each player image or name to move the detail about the player the detail looks like
+# We can click each player image or name to move to the detail of the player
 ![image](https://github.com/Melloss/Kuas-Soccer/assets/101984338/ab07f722-707b-40ab-8928-753829b65317)
 
 
@@ -54,4 +54,4 @@ It takes me 11 days to finish, I hope you Enjoy the show!
 
 
                   =============== Download Setup Zip File ==================
-                                  [Kuas Setup.zip](https://github.com/Melloss/Kuas-Soccer/files/11632913/Kuas.Setup.zip)
+[Kuas Setup.zip](https://github.com/Melloss/Kuas-Soccer/files/11632913/Kuas.Setup.zip)
