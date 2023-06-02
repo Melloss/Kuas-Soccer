@@ -470,7 +470,7 @@ namespace Kuas
             this.label37.Size = new System.Drawing.Size(75, 17);
             this.label37.TabIndex = 6;
             this.label37.Text = "G. Xhaka";
-            this.label37.Click += new System.EventHandler(this.label47_Click);
+            this.label37.Click += new System.EventHandler(this.label46_Click);
             // 
             // label36
             // 
@@ -1419,6 +1419,7 @@ namespace Kuas
             this.ClientSize = new System.Drawing.Size(980, 538);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Arsenal_Wolves_Play";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Arsenal_Wolves_Play";

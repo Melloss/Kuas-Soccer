@@ -743,7 +743,7 @@ namespace Kuas
             // 
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label28.Location = new System.Drawing.Point(131, 342);
+            this.label28.Location = new System.Drawing.Point(131, 354);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(456, 27);
             this.label28.TabIndex = 30;
@@ -753,7 +753,7 @@ namespace Kuas
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(186, 313);
+            this.label22.Location = new System.Drawing.Point(186, 325);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(13, 13);
             this.label22.TabIndex = 24;
@@ -762,7 +762,7 @@ namespace Kuas
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(483, 313);
+            this.label23.Location = new System.Drawing.Point(483, 325);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(13, 13);
             this.label23.TabIndex = 23;
@@ -771,7 +771,7 @@ namespace Kuas
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.OrangeRed;
-            this.panel11.Location = new System.Drawing.Point(201, 329);
+            this.panel11.Location = new System.Drawing.Point(201, 341);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(345, 10);
             this.panel11.TabIndex = 22;
@@ -779,7 +779,7 @@ namespace Kuas
             // panel12
             // 
             this.panel12.BackColor = System.Drawing.Color.DodgerBlue;
-            this.panel12.Location = new System.Drawing.Point(134, 329);
+            this.panel12.Location = new System.Drawing.Point(134, 341);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(68, 10);
             this.panel12.TabIndex = 21;
@@ -788,7 +788,7 @@ namespace Kuas
             // 
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label24.Location = new System.Drawing.Point(121, 299);
+            this.label24.Location = new System.Drawing.Point(121, 283);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(456, 27);
             this.label24.TabIndex = 20;
@@ -1027,7 +1027,7 @@ namespace Kuas
             // 
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label25.Location = new System.Drawing.Point(121, 299);
+            this.label25.Location = new System.Drawing.Point(121, 310);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(456, 27);
             this.label25.TabIndex = 25;
@@ -1598,14 +1598,15 @@ namespace Kuas
             this.label62.Text = "Cards";
             this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // CompletedPlay
+            // Tottenham_Brentford_Play
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(989, 605);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel1);
-            this.Name = "CompletedPlay";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Tottenham_Brentford_Play";
             this.Text = "CompletedPlay";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
